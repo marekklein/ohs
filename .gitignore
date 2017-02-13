@@ -13,6 +13,7 @@
 
 ## Gregorio
 *.gtex
+*.gaux
 
 ## Intermediate documents:
 *.dvi
