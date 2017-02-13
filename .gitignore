@@ -11,6 +11,9 @@
 *.cb
 *.cb2
 
+## Gregorio
+*.gtex
+
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
