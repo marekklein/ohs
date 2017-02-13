@@ -54,6 +54,8 @@
 \usepackage{lastpage}
 \pagestyle{fancy}
 % here we begin the document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \cfoot{\textit{\small{Officium Hebdomadæ sanctæ - Feria II - \thepage / \pageref{LastPage}}}}
 % The title:
@@ -98,6 +100,21 @@
 \linebreak
 \textit{\small{#2}}\end{center}}%
 }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\textaccent}[1]{%
+{\textbf{{#1}}}%
+%{\color{red} \textbf{\large{#1}}}%
+}
+\newcommand{\textprep}[1]{%
+%{\color{red} \textit{\large{#1}}}%
+{\textit{{#1}}}%
+}
+\newcommand{\textflex}[1]{%
+{\underline{#1}}%
+}
+
+
 \hyphenation{nech umu-če-ný}
 
 % We set red lines here, comment it if you want black ones.
