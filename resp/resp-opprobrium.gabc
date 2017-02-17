@@ -1,8 +1,15 @@
-
+nabc-lines:1;
 %%
-(f3)Op(c)pró(e!fg)bri(f)um(f) fa(f)ctus(f) sum(h) ni(hg/hif/g)mis(fVfoE) (,) i(f)ni(h)mí(hvGFEf)cis(fgwh/ihhoG) me(fghvGFg)is:(gf) (;) vi(h)dé(hioj)runt(jvIHG!hwi!HGFg) me,(gf) (,) et(fg~) mo(f)vé(fg)runt(f) cá(fghvGFE)pi(f)ta(hg/hih) su(hvGFg)a:(fVfoE) (:)
- * Ad(f)ju(fg)va(f) me,(f) Dó(f)mi(fe/fgwh/ivHGhwihi)ne,(ih) (,) De(hioj)us(jvIHGhwi/HG) me(fgwhgh)us.(gf) (::)
-V. Lo(f)cú(efgwhhi)ti(h) sunt(h) ad(h)vér(ij~)sum(i) me(h) lin(hg~)gua(hi) do(gh)ló(fgwhg)sa,(gf) (;) et(f) ser(ef~)mó(f)ni(f)bus(f) ó(fg)di(f)i(f) cir(f)cum(fgwh/GFE)de(f)dé(hg/hih)runt(hvGFg) me.(fVfoE) (::)
+(f3)Op(c|/ta)pró(e!fg|vi-/pehi)bri(f|/ta)um(f|/ta) fa(f|/ta)ctus(f|/ta) sum(h|vi) ni(hg|pe|/hif/g|/toS2/vi)mis(fVfo!E|pr) (,) 
+i(f|vi)ni(h|vi)mí(hvGFEf|//vi-suu1su2/vi)cis(fgwh|qlhdppt1|/ihho!G|///clSpi) me(fghvGFg|//vi-hhpp2su2/vihh)is:(gf|/cl-) (;) 
+vi(h|vi)dé(h!ioj|sa)runt(jvIHG!hwi!HGFg|///vihgsut3ql!vssu2vi) me,(gf|/cl-) (,) 
+et(fg~|pe~) mo(f|/ta)vé(fg|pe)runt(f|/ta) cá(fghvGFE|///vihhpp2su3lsc3)pi(f|vi)ta(hg/hih|//cl///to) su(hvGFg|//ci-/vi)a:(fVfo!E|pr) (:Z)
 
-Ad(f)ju(fg)va(f) me...(f) (::)
+ <v>\greheightstar</v> Ad(f|vi)ju(fg|pe)va(f|/ta) me,(f|/ta) Dó(f|/ta)mi(fe|/cl-|/fgwh|qlppt1|/ivHGhwihi|///vi-hgsut2///qi!po)ne,(ih|/cl-) (,) 
+De(hio!j|sa)us(jvIHGhwi/HG|///vi-sut3ql-sut2) me(fgwhgh|//ql!poppt1)us.(gf|/cl-) (::Z)
+
+<sp>V/</sp>. Lo(f|vi)cú(efgwhhi|qlhgppt2pehi)ti(h|/ta) sunt(h|/ta) ad(h|/ta)vér(ij~|pe)sum(i|/ta) me(h|/ta) lin(hg~|cl~)gua(hi|pe) do(gh|pe)ló(fgwhg|ql!cl-ppt1)sa,(gf|/cl-) (;) 
+et(f|vi) ser(ef~|pe)mó(f|/ta)ni(f|/ta)bus(f|/ta) ó(fg|pe)di(f|/ta)i(f|/ta) cir(f|/ta)cum(fgwh/GFE|///ql-ppt1su1sut2)de(f|vi)dé(hg/hih|/cl////to)runt(hvGFg|//ci-/vi) me.(fVfo!E|pr) (::)
+
+Ad(f|vi)ju(fg|pe)va(f|/ta) me,(f|/ta) (::)
 
