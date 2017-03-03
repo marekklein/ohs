@@ -3,9 +3,30 @@
 
 % This is a simple template for a LuaLaTeX document using gregorio scores.
 %PATCH START - specify slovak in documentclass
-\documentclass[17pt,slovak]{extarticle} % use larger type; default would be 10pt
+%\documentclass[17pt,slovak]{extarticle} % use larger type; default would be 10pt
+\documentclass[17pt,slovak,twoside,openright]{extreport} % use larger type; default would be 10pt
 %PATCH END
 %\usepackage[16pt]{extsizes}
+
+
+\usepackage{titlesec}
+ 
+\titleformat
+{\chapter} % command
+[display] % shape
+{\bfseries\large\scshape\centering} % format
+{\thechapter} % label
+{0.5ex} % sep
+{
+%    \rule{\textwidth}{1pt}
+    \vspace{-5ex}
+%    \centering
+} % before-code
+[
+%\vspace{-0.5ex}%
+%\rule{\textwidth}{0.3pt}
+] % after-code
+
 % usual packages loading:
 \usepackage{luatextra}
 \usepackage{graphicx} % support the \includegraphics command and options
