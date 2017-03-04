@@ -5,6 +5,8 @@
 %PATCH START - specify slovak in documentclass
 %\documentclass[17pt,slovak]{extarticle} % use larger type; default would be 10pt
 \documentclass[17pt,slovak,twoside,openright]{extreport} % use larger type; default would be 10pt
+\raggedbottom
+
 %PATCH END
 %\usepackage[16pt]{extsizes}
 
@@ -19,7 +21,9 @@
 {0.5ex} % sep
 {
 %    \rule{\textwidth}{1pt}
-    \vspace{-5ex}
+	\vspace{-5ex}%
+	\feria \\%
+%
 %    \centering
 } % before-code
 [
@@ -159,9 +163,18 @@
 \input{./other/domine_exaudi_orationem.tex}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohschapter}[1]{%
+\chapter*{{#1}}%
+\thispagestyle{fancy}%
+\def \ohschaptername {{#1}}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \hyphenation{nech umu-če-ný}
+
+\cfoot{\textit{\small{\thepage / \pageref{LastPage} - Officium Hebdomadæ sanctæ - \feriashort - \ohschaptername }}}
+
 
 % We set red lines here, comment it if you want black ones.
 %\redlines
