@@ -1,8 +1,4 @@
-name:Ipsi sum desponsata;
-office-part:Antiphona;
-mode:7;
-book:Antiphonarium O.P. (Gillet), 1933, p. 670;
-transcriber:Andrew Hinkley;
+nabc-lines: 1;
 %%
-(f3)I(e)psi(f) ve(hi)ro(ii) <v>\greheightstar</v>(,) in(hi) va(jk)num(i) quæ(h)si(h)é(h)runt(h) á(hi)ni(g)mam(g>) (;) me(f)am,(f) (;) in(e)tro(f)í(hi)bunt(hh) in(h)fe(hg)ri(e)ó(eg)ra(g) ter(f)ræ.(f) (::)
+(f3)I(e|/ta)psi(f|vi) ve(hi|peS)ro(iVio|vs) <v>\greheightstar</v>(,) in(hi|peS) va(jk|peShk)num(i|vi-) quæ(h|/ta)si(h|/ta)é(h|/ta)runt(h|/ta) á(hi|peS)ni(g|/ta)mam(h>|vi>) me(f|/ta)am,(f|/ta-) (;) in(e|/ta)tro(f|vi)í(hi|peS)bunt(h|/ta-) in(h|/ta) in(h|/ta)fe(hg|/cl)ri(e|/ta)ó(eg|pe)ra(g|vi) ter(f|/ta)ræ.(f|/ta) (::)
 

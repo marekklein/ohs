@@ -2,6 +2,9 @@ name:Ecce ancilla Domini;
 office-part:Antiphona;
 mode:8;
 book:Antiphonale monasticum I, 2005, p. 6;
+nabc-lines: 1;
 %%
-(c4)AN(dd)cil(c)la(d) di(f)xit(e) Pe(d)tro:(dc) <v>\greheightstar</v>(;) Ve(f)re(g) tu(h) ex(g) il(h)lis(fe) es,(dfd!dc) (;) nam(cd) et(f) lo(f)que(f)la(f) tu(fg)a(f) (,) ma(f)ni(f)fe(ef)stum(g) te(fe) fa(d)cit.(d) (::)
+(c4)An(dVdo|vs)cil(c|/ta)la(d|vi) di(f|vi)xit(e|vi) Pe(d|/ta)tro:(dc|/cl-) <v>\greheightstar</v>(;) 
+Ve(f|vi)re(g|vi) tu(h|vi-) ex(g|/ta) il(h|vi>)lis(fe|/cllsc3) es,(dfdVdo!C|peSpr) (;) 
+nam(cd|peS) et(f|vi) lo(f|vi)que(f|pe)la(f|/ta) tu(fg|/ta)a(f|/ta) (,) ma(f|/ta)ni(f|vi-)fe(ef|peS)stum(g|vi) te(fe|/cl) fa(d|/ta)cit.(d|/ta) (::)
 
