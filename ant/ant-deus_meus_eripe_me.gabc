@@ -3,5 +3,7 @@ office-part:Antiphona;
 mode:8;
 book:The Liber Usualis, 1961, p. 629;
 transcriber:Andrew Hinkley;
+nabc-lines: 1;
+source: http://www.e-codices.unifr.ch/en/csg/0390/178;
 %%
-(c4) DE(j)us(j) me(j)us,(jvIH) <v>\greheightstar</v>() é(ij)ri(i)pe(gh) me(g) de(jk) ma(j)nu(ikjj) pec(h)ca(f)tó(g)ris.(g) (::)
+(c4) De(j|vihi)us(j|vihi) me(j|vihi)us,(jvIH|/ci-hi) <v>\greheightstar</v>() é(ij|peShi)ri(i|vihi)pe(gh|peShi) me(g|/tahi) de(jk|peShi) ma(j|vihi)nu(ikjjs|///tohi/sthk) pec(h|vihi)ca(f|/tahi)tó(g|vihi)ris.(g////|vihi) (::)

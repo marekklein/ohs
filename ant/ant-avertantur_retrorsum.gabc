@@ -3,6 +3,11 @@ office-part:Antiphona;
 mode:8;
 book:The Liber Usualis, 1961, p. 628;
 transcriber:Andrew Hinkley;
+nabc-lines: 1;
+source: http://www.e-codices.unifr.ch/en/csg/0390/178;
+
 %%
-(c4) A(j)ver(j)tán(jk)tur(k') re(k)trór(kj~)sum,(kj) <v>\greheightstar</v>() et(j) e(ji)ru(h!iwj)bé(jkj)scant,(g) qui(j) có(ikjk)gi(h)tant(fh) mi(jh)hi(i) ma(g)la.(g) (::)
+(c4) A(j|vihj)ver(j|vi-hj)tán(jk|pqhj)tur(k|vi-hj) re(k|vihj)trór(kj~|cl~hj)sum,(kj|/cl-hj) <v>\greheightstar</v>() 
+et(j|/tahj) e(ji|/clhjlsc3)ru(h!iwj|qlhjppt1)bé(jkj|//tohjlsm2)scant,(g|ta-hj) 
+qui(j|vi-hj) có(ikjk|//tohjvi>hj)gi(hf|/cllsc3)tant(h|/ta) mi(jh|/cl-)hi(i|vi-) ma(g|/ta)la.(g////|/ta) (::)
 
