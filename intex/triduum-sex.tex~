@@ -1,0 +1,70 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sloppy
+\grechangecount{endofwordpenalty}{-2000}
+
+\ohschapter{Ad Sextam}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformatantiphona
+\gresetinitiallines{0}
+
+\nadpisleft{Psalmus 118 - IX}
+\gregorioscore{./psalmi/ps118-9-in_directum}
+\input{./psalmi/ps118-9-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - X}
+\gregorioscore{./psalmi/ps118-10-in_directum}
+\input{./psalmi/ps118-10-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - XI}
+\gregorioscore{./psalmi/ps118-11-in_directum}
+\input{./psalmi/ps118-11-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - XII}
+\gregorioscore{./psalmi/ps118-12-in_directum}
+\input{./psalmi/ps118-12-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - XIII}
+\gregorioscore{./psalmi/ps118-13-in_directum}
+\input{./psalmi/ps118-13-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - XIV}
+\gregorioscore{./psalmi/ps118-14-in_directum}
+\input{./psalmi/ps118-14-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - XV}
+\gregorioscore{./psalmi/ps118-15-in_directum}
+\input{./psalmi/ps118-15-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - XVI}
+\gregorioscore{./psalmi/ps118-16-in_directum}
+\input{./psalmi/ps118-16-21-00-nogp.tex}
+
+%\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./other/christus_factus-sine_cantu.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+%\pagebreak[4]
+
+\input{./oratio/pater_noster-secreto.tex}
+
+\input{./oratio/respice-triduum.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\begin{center}\greseparator{2}{20}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

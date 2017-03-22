@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\cfoot{\textit{\small{Officium Hebdomadæ sanctæ - Feria II - \thepage / \pageref{LastPage}}}}
+\sloppy
+\grechangecount{endofwordpenalty}{-2000}
+\grechangestaffsize{18}
+\grechangedim{spaceabovelines}{5mm}{scalable}
+%\nadpisa{Feria secunda Hebdomadæ Sanctæ}
+
+\ohschapter{Ad Nonam}
+
+%\newlength{\test}
+%\setlength{\test}{2mm}
+%\addtolength{\test}{14pt} %<- Set this to the height of your text.
+%\grechangedim{spacelinestext}{\test}{scalable}
+
+\input{./intex/deus-text.tex}
+
+\vspace{2em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\grechangestaffsize{23}
+\grechangedim{spaceabovelines}{8mm}{scalable}
+
+\greannotation{\color{red} \small Hym.}
+\greannotation{\small II}
+\gresetinitiallines{1}
+\input{./hymni/hy-ternis_ter.tex}
+
+%\vspace{2em}
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\grechangedim{annotationraise}{0 mm}{scalable}
+\grechangedim{annotationseparation}{2 mm}{scalable}
+\grechangestaffsize{20}
+\grechangedim{spaceabovelines}{7mm}{scalable}
+\greannotation{\color{red} \small Ant.}
+\greannotation{\small VIII G}
+\gregorioscore{./ant/ant-libera_me}
+\gresetinitiallines{0}
+\nadpisleft{Psalmus 118 - XX}
+\gregorioscore{./psalmi/ps118-20-8G}
+\input{./psalmi/ps118-20-01-21.tex}
+\nadpisleft{Psalmus 118 - XXI}
+\gregorioscore{./psalmi/ps118-21-8G}
+\input{./psalmi/ps118-21-01-21.tex}
+\nadpisleft{Psalmus 118 - XXII}
+\gregorioscore{./psalmi/ps118-22-8G}
+\input{./psalmi/ps118-22-01-21.tex}
+
+\gregorioscore{./ant/ant-libera_me}
+%\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./capitulum/ca-ier-17-13.tex}
+
+\vspace{2em}
+\greannotation{\color{red} \small R. br.}
+\greannotation{\small V}
+\gresetinitiallines{1}
+\gregorioscore{./rbr/rbr-erue2}
+
+\vspace{2em}
+
+\input{./versiculum/vers-de_ore_leonis.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{3em}
+\pagebreak[4]
+
+\oratio{./oratio/or-praesta_quaesumus.tex}
+
+\vspace{2em}
+\gresetinitiallines{1}
+\grechangedim{annotationraise}{-2 mm}{scalable}
+\greannotation{\color{red} \Vbar}
+\gregorioscore{./other/benedicamus-domino2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{3em}
+\begin{center}\greseparator{2}{35}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

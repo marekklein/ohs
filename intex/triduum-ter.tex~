@@ -1,0 +1,70 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sloppy
+\grechangecount{endofwordpenalty}{-2000}
+
+\ohschapter{Ad Tertiam}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformatantiphona
+\gresetinitiallines{0}
+
+\nadpisleft{Psalmus 118 - I}
+\gregorioscore{./psalmi/ps118-1-in_directum}
+\input{./psalmi/ps118-1-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - II}
+\gregorioscore{./psalmi/ps118-2-in_directum}
+\input{./psalmi/ps118-2-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - III}
+\gregorioscore{./psalmi/ps118-3-in_directum}
+\input{./psalmi/ps118-3-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - IV}
+\gregorioscore{./psalmi/ps118-4-in_directum}
+\input{./psalmi/ps118-4-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - V}
+\gregorioscore{./psalmi/ps118-5-in_directum}
+\input{./psalmi/ps118-5-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - VI}
+\gregorioscore{./psalmi/ps118-6-in_directum}
+\input{./psalmi/ps118-6-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - VII}
+\gregorioscore{./psalmi/ps118-7-in_directum}
+\input{./psalmi/ps118-7-21-00-nogp.tex}
+
+\pagebreak[3]
+\nadpisleft{Psalmus 118 - VIII}
+\gregorioscore{./psalmi/ps118-8-in_directum}
+\input{./psalmi/ps118-8-21-00-nogp.tex}
+
+%\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./other/christus_factus-sine_cantu.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+%\pagebreak[4]
+
+\input{./oratio/pater_noster-secreto.tex}
+
+\input{./oratio/respice-triduum.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\begin{center}\greseparator{2}{20}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

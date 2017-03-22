@@ -1,11 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\cfoot{\textit{\small{Officium Hebdomadæ sanctæ - Feria II - \thepage / \pageref{LastPage}}}}
-\sloppy
-\grechangecount{endofwordpenalty}{-2000}
-\grechangestaffsize{18}
-\grechangedim{spaceabovelines}{5mm}{scalable}
-
 \ohschapter{Ad Sextam}
 
 \input{./intex/deus-text.tex}
@@ -13,41 +7,25 @@
 \vspace{2em}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\grechangestaffsize{23}
-\grechangedim{spaceabovelines}{8mm}{scalable}
+\ohsformathymnus
 
-\greannotation{\color{red} \small Hym.}
-\greannotation{\small II}
-\gresetinitiallines{1}
+\ohsannotation{Hym.}{II}
 \input{./hymni/hy-qua_christus.tex}
 
 %\vspace{2em}
 \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\grechangedim{annotationraise}{0 mm}{scalable}
-\grechangedim{annotationseparation}{2 mm}{scalable}
-\grechangestaffsize{20}
-\grechangedim{spaceabovelines}{7mm}{scalable}
-\greannotation{\color{red} \small 1. Ant.}
-\greannotation{\small IV A*}
+\ohsformatantiphona
+\ohsannotation{Ant.}{IV A*}
 \gregorioscore{./ant/ant-potestatem}
-\gresetinitiallines{0}
-\nadpisleft{Psalmus 118 - V}
-\gregorioscore{./psalmi/ps118-5-4Astar}
-\input{./psalmi/ps118-5-21-31.tex}
-\nadpisleft{Psalmus 118 - VI}
-\gregorioscore{./psalmi/ps118-6-4Astar}
-\input{./psalmi/ps118-6-21-31.tex}
+\ohspsalmus{Psalmus 118 - V}{./psalmi/ps118-5-4Astar}{./psalmi/ps118-5-21-31.tex}
+\ohspsalmus{Psalmus 118 - VI}{./psalmi/ps118-6-4Astar}{./psalmi/ps118-6-21-31.tex}
 \pagebreak[3]
-\nadpisleft{Psalmus 118 - VII}
-\gregorioscore{./psalmi/ps118-7-4Astar}
-\input{./psalmi/ps118-7-21-31.tex}
+\ohspsalmus{Psalmus 118 - VII}{./psalmi/ps118-7-4Astar}{./psalmi/ps118-7-21-31.tex}
 \pagebreak[3]
-\nadpisleft{Psalmus 118 - VIII}
-\gregorioscore{./psalmi/ps118-8-4Astar}
-\input{./psalmi/ps118-8-21-31.tex}
-\gregorioscore{./ant/ant-potestatem}
+\ohspsalmus{Psalmus 118 - VIII}{./psalmi/ps118-8-4Astar}{./psalmi/ps118-8-21-31.tex}
+\ohsscorenostar{./ant/ant-potestatem}
 
 %\separator{3}
 
@@ -56,31 +34,29 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./capitulum/ca-ier-17-13.tex}
 
-\vspace{2em}
-\greannotation{\color{red} \small R. br.}
-\greannotation{\small V}
-\gresetinitiallines{1}
+\vspace{1em}
+\ohsannotation{R. br.}{V}
 \gregorioscore{./rbr/rbr-erue2}
 
-\vspace{2em}
+\vspace{1em}
 
 \input{./versiculum/vers-de_ore_leonis.tex}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\vspace{3em}
-\pagebreak[4]
+%\vspace{1em}
+%\pagebreak[4]
 
 \oratio{./oratio/or-da_quaesumus.tex}
 
-\vspace{2em}
+\vspace{1em}
 \gresetinitiallines{1}
 \grechangedim{annotationraise}{-2 mm}{scalable}
 \greannotation{\color{red} \Vbar}
 \gregorioscore{./other/benedicamus-domino2}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{3em}
-\begin{center}\greseparator{2}{35}\end{center}
+\vspace{1em}
+\begin{center}\greseparator{2}{20}\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
