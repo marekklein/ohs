@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ohschapter{Ad Nonam}
+
+\input{./intex/deus-text.tex}
+
+\vspace{2em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformathymnus
+
+\ohsannotation{Hym.}{II}
+\input{./hymni/hy-ternis_ter.tex}
+
+%\vspace{2em}
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformatantiphona
+\ohsannotation{Ant.}{IV A*}
+\gregorioscore{./ant/ant-potestatem}
+\ohspsalmus{Psalmus 118 - IX}{./psalmi/ps118-9-4Astar}{./psalmi/ps118-9-21-31.tex}
+\ohspsalmus{Psalmus 118 - X}{./psalmi/ps118-10-4Astar}{./psalmi/ps118-10-21-31.tex}
+\ohspsalmus{Psalmus 118 - XI}{./psalmi/ps118-11-4Astar}{./psalmi/ps118-11-21-31.tex}
+\ohspsalmus{Psalmus 118 - XII}{./psalmi/ps118-12-4Astar}{./psalmi/ps118-12-21-31.tex}
+
+\ohsscorenostar{./ant/ant-potestatem}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./capitulum/ca-ier-17-13.tex}
+
+\vspace{2em}
+\ohsannotation{R. br.}{V}
+\gregorioscore{./rbr/rbr-erue2}
+
+\vspace{2em}
+
+\input{./versiculum/vers-de_ore_leonis.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{3em}
+\pagebreak[4]
+
+\oratio{./oratio/or-omnipotens_sempiterne.tex}
+
+\vspace{2em}
+\gresetinitiallines{1}
+\grechangedim{annotationraise}{-2 mm}{scalable}
+\greannotation{\color{red} \Vbar}
+\gregorioscore{./other/benedicamus-domino2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{3em}
+\begin{center}\greseparator{2}{20}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

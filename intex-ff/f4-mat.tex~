@@ -1,0 +1,223 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\cfoot{\textit{\small{Officium Hebdomadæ sanctæ - Feria III - \thepage / \pageref{LastPage}}}}
+\sloppy
+\grechangecount{endofwordpenalty}{-2000}
+\grechangestaffsize{23}
+\grechangedim{spaceabovelines}{8mm}{scalable}
+
+\ohschapter{Ad Matutinum}
+
+\newlength{\test}
+\setlength{\test}{2mm}
+%\nadpisleft{Úvod}
+\addtolength{\test}{14pt} %<- Set this to the height of your text.
+%\grechangedim{spacelinestext}{\test}{scalable}
+
+%\grechangedim{annotationraise}{-7 mm}{scalable}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\gregorioscore{./ant/ant-inv-christum-tentatum}
+\nadpisleft{Psalmus 94}
+\grechangedim{annotationraise}{-4 mm}{scalable}
+\greannotation{\small IV*}
+\gregorioscore{./venite4b-christum}
+\begin{center}\greseparator{3}{25}\end{center}
+\gregorioscore{./hymni/hy-pange_lingua}
+\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\grechangedim{annotationraise}{0 mm}{scalable}
+\grechangedim{annotationseparation}{2 mm}{scalable}
+\grechangestaffsize{20}
+\grechangedim{spaceabovelines}{7mm}{scalable}
+\greannotation{\color{red} \small 1. Ant.}
+\greannotation{\small IV g}
+\gregorioscore{./ant/ant-speciosus_forma}
+\nadpisleft{Psalmus 44 - I}
+\gresetinitiallines{0}
+\gregorioscore{./psalmi/ps044-1-1g}
+\input{./psalmi/ps044-1-02-21.tex}
+\gregorioscore{./ant/ant-speciosus_forma}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\gresetinitiallines{1}
+\grechangedim{annotationraise}{0 mm}{scalable}
+\grechangedim{annotationseparation}{2 mm}{scalable}
+\grechangestaffsize{20}
+\grechangedim{spaceabovelines}{7mm}{scalable}
+\greannotation{\color{red} \small 2. Ant.}
+\greannotation{\small VI F}
+\gregorioscore{./ant/ant-confitebuntur_tibi}
+
+\nadpisleft{Psalmus 44 - II}
+\gresetinitiallines{0}
+\gregorioscore{./psalmi/ps044-2-6F}
+\input{./psalmi/ps044-2-02-21.tex}
+\gregorioscore{./ant/ant-confitebuntur_tibi}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\gresetinitiallines{1}
+\grechangedim{annotationraise}{0 mm}{scalable}
+\grechangedim{annotationseparation}{2 mm}{scalable}
+\grechangestaffsize{20}
+\grechangedim{spaceabovelines}{7mm}{scalable}
+\greannotation{\color{red} \small 3. Ant.}
+\greannotation{\small IV g}
+\gregorioscore{./ant/ant-adjutor}
+
+\nadpisleft{Psalmus 45}
+\gresetinitiallines{0}
+\gregorioscore{./psalmi/ps045-4g}
+\input{./psalmi/ps045-21-01.tex}
+\gregorioscore{./ant/ant-adjutor}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\gresetinitiallines{1}
+\grechangedim{annotationraise}{0 mm}{scalable}
+\grechangedim{annotationseparation}{2 mm}{scalable}
+\grechangestaffsize{20}
+\grechangedim{spaceabovelines}{7mm}{scalable}
+\greannotation{\color{red} \small 4. Ant.}
+\greannotation{\small IV E}
+\gregorioscore{./ant/ant-magnus_dominus}
+
+\nadpisleft{Psalmus 47}
+\gresetinitiallines{0}
+\gregorioscore{./psalmi/ps047-4E}
+\input{./psalmi/ps047-21-31.tex}
+\gregorioscore{./ant/ant-magnus_dominus}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\gresetinitiallines{1}
+\grechangedim{annotationraise}{0 mm}{scalable}
+\grechangedim{annotationseparation}{2 mm}{scalable}
+\grechangestaffsize{20}
+\grechangedim{spaceabovelines}{7mm}{scalable}
+\greannotation{\color{red} \small 5. Ant.}
+\greannotation{\small IV E}
+\gregorioscore{./ant/ant-os_meum_loquetur}
+
+\nadpisleft{Psalmus 48 - I}
+\gresetinitiallines{0}
+\gregorioscore{./psalmi/ps048-1-7c}
+\input{./psalmi/ps048-1-02-02.tex}
+\gregorioscore{./ant/ant-os_meum_loquetur}
+\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\gresetinitiallines{1}
+\grechangedim{annotationraise}{0 mm}{scalable}
+\grechangedim{annotationseparation}{2 mm}{scalable}
+\grechangestaffsize{20}
+\grechangedim{spaceabovelines}{7mm}{scalable}
+\greannotation{\color{red} \small 6. Ant.}
+\greannotation{\small VIII G}
+\gregorioscore{./ant/ant-ne_timueris}
+
+\nadpisleft{Psalmus 48 - II}
+\gresetinitiallines{0}
+\gregorioscore{./psalmi/ps048-2-8G}
+\input{./psalmi/ps048-2-01-21.tex}
+\gregorioscore{./ant/ant-ne_timueris}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\gresetinitiallines{1}
+\grechangedim{annotationraise}{0 mm}{scalable}
+\grechangedim{annotationseparation}{2 mm}{scalable}
+\grechangestaffsize{20}
+\grechangedim{spaceabovelines}{7mm}{scalable}
+\greannotation{\color{red} \small 7. Ant.}
+\greannotation{\small VIII c}
+\gregorioscore{./ant/ant-deus_deorum}
+
+\nadpisleft{Psalmus 49 - I}
+\gresetinitiallines{0}
+\gregorioscore{./psalmi/ps049-1-8c}
+\input{./psalmi/ps049-1-01-21.tex}
+\gregorioscore{./ant/ant-deus_deorum}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\gresetinitiallines{1}
+\grechangedim{annotationraise}{0 mm}{scalable}
+\grechangedim{annotationseparation}{2 mm}{scalable}
+\grechangestaffsize{20}
+\grechangedim{spaceabovelines}{7mm}{scalable}
+\greannotation{\color{red} \small 8. Ant.}
+\greannotation{\small I g4}
+\gregorioscore{./ant/ant-immola_deo}
+
+\nadpisleft{Psalmus 49 - II}
+\gresetinitiallines{0}
+\gregorioscore{./psalmi/ps049-2-1g3}
+\input{./psalmi/ps049-2-02-21.tex}
+\gregorioscore{./ant/ant-immola_deo}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\gresetinitiallines{1}
+\grechangedim{annotationraise}{0 mm}{scalable}
+\grechangedim{annotationseparation}{2 mm}{scalable}
+\grechangestaffsize{20}
+\grechangedim{spaceabovelines}{7mm}{scalable}
+\greannotation{\color{red} \small 9. Ant.}
+\greannotation{\small I g4}
+\gregorioscore{./ant/ant-intelligite}
+
+\nadpisleft{Psalmus 49 - III}
+\gresetinitiallines{0}
+\gregorioscore{./psalmi/ps049-3-8c}
+\input{./psalmi/ps049-3-01-21.tex}
+\gregorioscore{./ant/ant-intelligite}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\grechangestaffsize{23}
+\grechangedim{spaceabovelines}{11mm}{scalable}
+\gresetnabcfont{gregall}{12}
+\greannotation{\color{red} \small Resp. 1}
+\greannotation{\small II}
+\gresetinitiallines{1}
+\gregorioscore{./resp/resp-locuti_sunt}
+\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\grechangestaffsize{23}
+\grechangedim{spaceabovelines}{11mm}{scalable}
+\gresetnabcfont{gregall}{12}
+\greannotation{\color{red} \small Resp. 2}
+\greannotation{\small I}
+\gresetinitiallines{1}
+\gregorioscore{./resp/resp-dixerunt_impii}
+\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\grechangestaffsize{23}
+\grechangedim{spaceabovelines}{11mm}{scalable}
+\gresetnabcfont{gregall}{12}
+\greannotation{\color{red} \small Resp. 3}
+\greannotation{\small II}
+\gresetinitiallines{1}
+\gregorioscore{./resp/resp-circumdederunt}
+%\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{4em}
+\begin{center}\greseparator{2}{35}\end{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

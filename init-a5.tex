@@ -46,107 +46,27 @@
 \usepackage{fancyheadings}
 \usepackage{lastpage}
 \pagestyle{fancy}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+pdftitle={Officium Hebdomadæ Sanctæ},
+%pdfsubject={Your PDF subject},
+pdfauthor={Marek Klein - marek@gregoriana.sk},
+%pdfkeywords={Your PDF keywords}
+}
 % here we begin the document
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-% The title:
-\vspace{6 mm}
-\newcommand{\prizvuk}[1]{%
-{\textbf{#1}}%
-}
-\newcommand{\priprava}[1]{%
-{\textit{#1}}%
-}
-\newcommand{\flexa}[1]{%
-{\underline{#1}}%
-}
-\newcommand{\nadpisa}[1]{%
-{\begin{center}\large{\textbf{\textsc{#1}}}\end{center}}%
-}
-\newcommand{\nadpisb}[1]{%
-{\begin{center}\large{\textsc{#1}}\end{center}}%
-}
-\newcommand{\nadpisc}[1]{%\usepackage{fancyheadings}
-{\textit{\small{\textbf{#1}}}}%
-}
-\newcommand{\nadpisd}[1]{%
-{\begin{center}\textit{\small{#1}}\end{center}}%
-}
-\newcommand{\nadpisleft}[1]{%
-{\color{red} \textit{\small{#1}}}%
-\vspace{0.2em}%
-}
-\newcommand{\nadpisleftclose}[1]{%
-{\color{red} \textit{\small{#1}}}%
-\vspace{-1em}%
-}
-\newcommand{\nadpissub}[2]{%
-{\begin{center}\textbf{\textsc{#1}}
-\linebreak
-\textit{\small{#2}}\end{center}}%
-}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\textaccent}[1]{%
-{\textbf{{#1}}}%
-%{\color{red} \textbf{\large{#1}}}%
-}
-\newcommand{\textprep}[1]{%
-%{\color{red} \textit{\large{#1}}}%
-{\textit{{#1}}}%
-}
-\newcommand{\textflex}[1]{%
-{\underline{#1}}%
-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./init-common.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\separator}[1]{%
 \nopagebreak[4]
 \begin{center}\greseparator{3}{18}\end{center}
 \pagebreak[{#1}]
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\oratio}[1]{%
-\nadpisleft{Oratio:}
-
-\input{./other/domine_exaudi_orationem.tex}
-
-\vspace{1em}
-
-\input{{#1}}
-
-\vspace{1em}
-
-\input{./other/domine_exaudi_orationem.tex}
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\ohschapter}[1]{%
-\chapter*{{#1}}%
-\thispagestyle{fancy}%
-\def \ohschaptername {{#1}}
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\ohsannotation}[2]{%
-\greannotation{\color{red} \small {#1}}%
-\greannotation{\small {#2}}%
-\gresetinitiallines{1}%
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\ohsscorenostar}[1]{%
-\gresetinitiallines{0}%
-{\let\greheightstar\relax%
-\gregorioscore{#1}%
-}
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\ohspsalmus}[3]{%
-\gresetinitiallines{0}%
-\nadpisleft{#1}
-\gregorioscore{#2}
-\input{#3}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -185,9 +105,13 @@
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\cfoot{\textit{\small{\thepage / \pageref{LastPage} - Officium Hebdomadæ sanctæ - \feriashort - \ohschaptername }}}
+\cfoot{\textit{\small{\thepage / \pageref{LastPage} - Officium Hebdomadæ Sanctæ - \feriashort - \ohschaptername }}}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \ohsz {
+\GreNewParLine %
+}
+%\let\ohsz\relax%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

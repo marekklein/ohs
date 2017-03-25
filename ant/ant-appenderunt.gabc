@@ -3,6 +3,6 @@ office-part:Antiphona;
 mode:4;
 book:Antiphonarium O.P. (Gillet), 1933, p. 464;
 transcriber:Andrew Hinkley;
-
+nabc-lines:1;
 %%
-(c4) Ap(d)pen(ef)dé(g)runt(g) <v>\greheightstar</v>() mer(e)cé(gh)dem(fe~) me(d)am(d) (;) tri(ffe)gín(d)ta(e) ar(f>)gén(g>)te(fg)is,(d) (;) quos(ffe) ap(d)pre(e)ti(f)á(g)tus(f) sum(gh) ab(gf) e(e)is.(e) (::)
+(c4) Ap(d|/ta)pen(ef|peS)dé(g|vi)runt(g|vi) <v>\greheightstar</v>() mer(e|/ta)cé(gh|pe)dem(fe~|cl~) me(d|/ta)am(d|/ta) (;) tri(fVfo!E|pr)gín(d|/ta)ta(e|vi) ar(f>|pe~)gén(g>|vi>)te(fg|peS)is,(d|/ta) (;) quos(fVfo!E|pr) ap(d|/ta)pre(e|vi)ti(f|vi)á(g|vi)tus(f|/ta) sum(gh|pe) ab(gf|/cl) e(e|/ta)is.(e|/ta) (::)
