@@ -3,6 +3,8 @@ office-part:Antiphona;
 mode:5;
 book:Antiphonarium O.P. (Gillet), 1933, p. 120;
 transcriber:Andrew Hinkley;
+nabc-lines:1;
+source:http://www.e-codices.unifr.ch/en/csg/0390/177;
 %%
-(c4)AL(f)li(f)ga(ixhi) Dó(h)mi(g)ne(h) <v>\greheightstar</v>() in(gf~) vín(g)cu(ixig)lis(h) (,) na(h)ti(g)ó(e)nes(f) gén(g)ti(fe)um(d), et(d) re(fd~)ges(e) e(f)á(gf)rum(g) in(ec~) com(ef)pé(d)di(cd)bus.(d) (::)
+(c4)AL(f|vi)li(f|vi)ga(ixhi|////peS) Dó(h|vi)mi(g|/ta)ne(h|vi) <v>\greheightstar</v>() in(gf~|vi>) vín(g|vi)cu(ixig|//////cllsc3)lis(h|vi-) (,) na(h|vi)ti(g|vi)ó(e|/ta)nes(f|vi) gén(g|vi)ti(fe|/cllsc3)um(d|ta-), et(d|/ta) re(fd~|vi>)ges(e|vi) e(f|vi)á(gf|/cl-)rum(g|vi-) in(ec~|/vi>) com(eV!fo|vs)pé(d|/ta)di(cd|/ta)bus.(d|/ta) (::)
 

@@ -1,6 +1,8 @@
 name:Angelus autem Domini;
 office-part:Antiphona;
 mode:8;
+nabc-lines:1;
+source:http://www.e-codices.unifr.ch/en/csg/0391/036;
 %%
 
-(c4) AN(ghwj)GE(h)LUS(h) AU(hg~)TEM(f) Dó(ghg)mi(fg)ni(g) <v>\greheightstar</v>(,) de(i)scén(j)dit(k) de(jh) c<sp>'æ</sp>(jj)lo,(i) (;) et(j) ac(j)cé(jkj)dens(jij) (,) re(j)vól(ji~)vit(h) lá(ij)pi(i)dem,(g) (;) et(g) se(f)dé(g)bat(f) su(g)per(h) e(jj)um,(i) al(g)le(ij)lú(h)ia,(gf) al(gh)le(h)lú(g)ia.(g) (::)
+(c4) An(ghwj|ql>ppt1)ge(h|/ta)lus(h|/ta) au(hg~|vi>)tem(f|/ta) Dó(ghg|//toS)mi(fg|pe)ni(g|vi-) <v>\greheightstar</v>(,) de(i|vi)scén(j|vi)dit(k|vihh) de(jh|/clhglsc3) c<sp>'ae</sp>(jVjo|vs)lo,(i|/ta) (;) et(j|vi) ac(j|vi)cé(jkj|//toShi)dens(jij|//po) (,) re(j|vi)vól(ji~|vi>)vit(h|/ta) lá(iwj|ql)pi(i|vi)dem,(g|/ta) (;) et(g|vi) se(f|/ta)dé(g|vi)bat(f|/ta) su(g|vi)per(h|vi) e(jVjo|vs)um,(i|vi) al(g|/ta)le(ij|pe)lú(h|vi>)ia,(gf|cl) al(gh|pe)le(h|vi)lú(g|/ta)ia.(g|/ta) (::)
