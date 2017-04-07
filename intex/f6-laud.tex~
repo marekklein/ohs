@@ -8,48 +8,49 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
-\ohsannotation{1. Ant.}{VIII G}
-\gregorioscore{./ant/ant-justificeris}
-\ohspsalmus{Psalmus 50}{./psalmi/ps050-8G}{./psalmi/ps050-01-21-nogp.tex}
-\ohsscorenostar{./ant/ant-justificeris}
+\ohsannotation{1. Ant.}{VII c transp}
+\gregorioscore{./ant/ant-proprio}
+\ohspsalmus{Psalmus 50}{./psalmi/ps050-7c-transp}{./psalmi/ps050-02-02-nogp.tex}
+\ohsscorenostar{./ant/ant-proprio}
 \separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ohsannotation{2. Ant.}{II D}
-\gregorioscore{./ant/ant-dominus_tamquam_ovis}
-\ohspsalmus{Psalmus 89}{./psalmi/ps089-2D}{./psalmi/ps089-01-11-nogp.tex}
-\ohsscorenostar{./ant/ant-dominus_tamquam_ovis}
+\ohsannotation{2. Ant.}{IV E}
+\gregorioscore{./ant/ant-anxiatus}
+\ohspsalmus{Psalmus 142}{./psalmi/ps142-4E}{./psalmi/ps142-21-31-nogp.tex}
+\ohsscorenostar{./ant/ant-anxiatus}
 \separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ohsannotation{3. Ant.}{VIII G}
-\gregorioscore{./ant/ant-contritum_est}
-\ohspsalmus{Psalmus 35}{./psalmi/ps035-8G}{./psalmi/ps035-01-21-nogp.tex}
-\ohsscorenostar{./ant/ant-contritum_est}
+\ohsannotation{3. Ant.}{I f}
+\gregorioscore{./ant/ant-ait}
+\ohspsalmus{Psalmus 84}{./psalmi/ps084-1f}{./psalmi/ps084-02-21-nogp.tex}
+\ohsscorenostar{./ant/ant-ait}
 \separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ohsannotation{4. Ant.}{IV A*}
-\gregorioscore{./ant/ant-exhortatus_es}
-\ohspsalmus{Canticum Moysi (Exodi 15, 1-19)}{./psalmi/cmoy-4Astar}{./psalmi/cmoy-21-31-nogp.tex}
-\ohsscorenostar{./ant/ant-exhortatus_es}
+\ohsannotation{4. Ant.}{I f}
+\gregorioscore{./ant/ant-dum_conturbata}
+\ohspsalmus{Canticum Habacuc (Hab. 3, 2-19)}{./psalmi/chab-1f}{./psalmi/chab-02-21-nogp.tex}
+\ohsscorenostar{./ant/ant-dum_conturbata}
 \separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ohsannotation{5. Ant.}{I g2}
-\gregorioscore{./ant/ant-oblatus_est}
-\ohspsalmus{Psalmus 146}{./psalmi/ps146-2D}{./psalmi/ps146-01-11-nogp.tex}
-\ohsscorenostar{./ant/ant-oblatus_est}
-\separator{4}
+\ohsannotation{5. Ant.}{VIII G}
+\gregorioscore{./ant/ant-memento_mei}
+\ohspsalmus{Psalmus 147}{./psalmi/ps147-8G}{./psalmi/ps147-01-21-nogp.tex}
+\ohsscorenostar{./ant/ant-memento_mei}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \nadpisleft{Versus (In loco Capituli)}
-\gregorioscore{./versiculum/vers-homo_pacis}
+\gregorioscore{./versiculum/vers-collocavit}
 
-\vspace{2em}
+\separator{3}
+%\vspace{2em}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
 \ohsannotation{Ad Bened.}{I g solemn.}
-\gregorioscore{./ant/ant-traditor_autem}
+\gregorioscore{./ant/ant-posuerunt}
 \ohspsalmus{Benedictus}{./psalmi/benedictus-1gsolemn}{./psalmi/benedictus-31-21-nogp.tex}
-\ohsscorenostar{./ant/ant-traditor_autem}
+\ohsscorenostar{./ant/ant-posuerunt}
 %\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

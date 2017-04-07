@@ -3,5 +3,9 @@ office-part:Antiphona;
 mode:7;
 book:The Liber Usualis, 1961, p. 782;
 transcriber:Andrew Hinkley;
+source:http://www.e-codices.unifr.ch/en/csg/0391/032;
+nabc-lines:1;
 %%
-(c3) Præ(e) ti(e)mó(g)re(h) au(ih~)tem(gh) e(ij)jus(i) <v>\greheightstar</v>(,) ex(i)tér(j)ri(i)ti(g) sunt(hi) cu(g)stó(e)des,(e) (;) et(e) fa(g)cti(g) sur(g) ve(g)lut(h>) mór(f)tu(h)i,(gvFE) al(fg)le(fg)lú(e)ia.(e) (::)
+(c3) Præ(e|/ta) ti(e|/ta)mó(g|vi)re(h|vi) au(ih~|cl~)tem(gh|peS) e(ij|pe>1)jus(i|/ta-) <v>\greheightstar</v>(,) 
+ex(i|/ta)tér(j|vi>)ri(i|vi)ti(g|vslsc3) sunt(hV!io|vslsc3) cu(g|vi)stó(e|/ta)des,(e|/ta-) (;) 
+et(e|/ta) fa(g|vi)cti(g|vi) sunt(g|vi) ve(g|vi)lut(h>|vi>) mór(f|vi)tu(h|vi)i,(gvFE|//ci-) al(fg|pe>)le(fg|pe)lú(e|/ta)ia.(e|/ta) (::)

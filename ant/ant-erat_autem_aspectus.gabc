@@ -3,5 +3,9 @@ office-part:Antiphona;
 mode:8;
 book:The Liber Usualis, 1961, p. 782;
 transcriber:Andrew Hinkley;
+source:http://www.e-codices.unifr.ch/en/csg/0391/032;
+nabc-lines:1;
 %%
-(c3) E(h)rat(h) au(hig)tem(e) <v>\greheightstar</v>(,) a(g)spé(i)ctus(h) e(i>)jus(h) si(hg)cut(f) ful(hih)gur:(hgh) (;) ve(h)sti(h)mén(h)ta(h) e(gf)jus(e) si(g)cut(fe~) nix,(f) (,) al(f)le(ed)lú(c)ia,(d) al(ef)le(f)lú(e)ia.(e) (::)
+(c3) E(h|vi)rat(h|vi) au(hig|//to)tem(e|/ta) <v>\greheightstar</v>(,) 
+a(g|vi)spé(i|vi)ctus(h|/ta) e(i>|vi>)jus(h|/ta) si(hg|/cllsc3)cut(f|/ta) ful(hih|//to)gur:(hgh|//polsx6) (;) 
+ve(h|vi)sti(h|vi)mén(h|vi)ta(h|vi) e(gf|cl->)jus(e|/ta) si(g|vi)cut(fe~|cl~) nix,(f|peS) (,) al(f)le(ed)lú(c)ia,(d) al(ef|pe)le(f|vi)lú(e|/ta)ia.(e|/ta) (::)

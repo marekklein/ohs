@@ -3,8 +3,10 @@ office-part:Antiphona;
 mode:8;
 book:The Liber Usualis, 1961, p. 783;
 transcriber:Andrew Hinkley;
+source:http://www.e-codices.unifr.ch/en/csg/0391/036;
+nabc-lines:1;
 %%
-(c3) Re(e)spón(eh)dens(f) au(fe~)tem(d) An(efe)ge(de)lus(e) <v>\greheightstar</v>(,) 
-dix(g)it(h) mu(i)li(hf)é(h)ri(h)bus:(g) (;) 
-No(h)lí(h)te(h) ti(h)mé(gf)re:(e) (;) sci(g)o(fe) e(fg)nim(f) 
-quod(g) Je(h)sum(ij) qu<sp>'ae</sp>(i)ri(h)tis,(gh) al(f)le(f)lú(e)ia.(e) (::)
+(c3) Re(e|/ta)spón(eh|pe>)dens(f|/ta) au(fe~|cl~)tem(d|/ta) An(efe|to->)ge(de|pe)lus(e|/ta) <v>\greheightstar</v>(,) 
+dix(g|vi)it(h|vi) mu(i|vi)li(hf|/cl)é(h|vi)ri(h|vi-)bus:(g|/ta) (;) 
+No(h|vi)lí(h|vi)te(h|vi) ti(h|vi)mé(gf|/cl-)re:(e|/ta) (;) sci(g|vi)o(fe|/cllsc3) e(fg|peS)nim(f|/ta) 
+quod(g|vi) Je(h|vi)sum(ij|peS) qu<sp>'ae</sp>(i|vi)ri(h|vi)tis,(gh|peS) al(f|/ta)le(f|or)lú(e|/ta)ia.(e|/ta) (::)
