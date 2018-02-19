@@ -15,6 +15,7 @@
 *.gtex
 *.gaux
 *.glog
+*.gabc~
 
 ## Intermediate documents:
 *.dvi
