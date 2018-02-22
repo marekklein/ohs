@@ -1,10 +1,10 @@
 \input{init-a5.tex}
 \def \feria {Dominica Resurrectionis}
 \def \feriashort {Resurrectio}
-%\input{./intex/dom-resurr-laud.tex}
+\input{./intex/dom-resurr-laud.tex}
 %\input{./intex/dom-resurr-ter.tex}
 %\input{./intex/dom-resurr-sex.tex}
-\input{./intex/dom-resurr-mass.tex}
+%\input{./intex/dom-resurr-mass.tex}
 %\input{./intex/dom-resurr-non.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
