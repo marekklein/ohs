@@ -15,23 +15,23 @@
 \separator{3}
 
 
-\ohsannotation{Graduale}{II}
+\ohsannotation{Grad.}{II}
 \gregorioscore{./mass/gr-ne_avertas}
 \separator{3}
 
-\ohsannotation{Offertorium}{I}
+\ohsannotation{Of.}{I}
 \gregorioscore{./mass/of-domine_exaudi_ne_avertas}
 
+\begin{comment}
 \separator{3}
-\ohsannotation{Communio}{II}
-\gregorioscore{./mass/co-potum_meum}
+\ohsannotation{Com.}{V}
+\gregorioscore{./mass/co-adversum_me}
 \ohsformatverses
-\nadpisleft{Psalmus 101}
+\nadpisleft{Psalmus 68}
 \begin{small}
-\gregorioscore{./mass/co-verses-potum-2}
+\gregorioscore{./mass/co-verses-adversum-5}
 \end{small}
 
-\begin{comment}
 
 \end{comment}
 
