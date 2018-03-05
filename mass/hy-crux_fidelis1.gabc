@@ -1,0 +1,15 @@
+name:Crux fidelis;
+office-part:Hymnus;
+mode:1;
+book:Graduale Romanum, 1961, p. 232 & Graduale Romanum, 1961, p. 236 & The Liber Usualis, 1961, p. 742;
+transcriber:Andrew Hinkley;
+ntranscriber:Marek Klein;
+nabc-lines:1;
+source:http://www.e-codices.unifr.ch/en/csg/0359/100;
+%%
+(c4) CRux(d|ta) fi(e|vi)dé(gh|peS)lis,(hg|/cl-) in(h|vi)ter(j|pe) o(ji|cl>)mnes(h_g|/cl-) (,) 
+Ar(i|pe>)bor(j|pe) u(kl|peShk)na(hg|/cl-) nó(j|to)bi(ih|vi-su1sut1)lis:(h.|ta) (:) 
+Nul(h|ta)la(hji|//to) ta(g|ta)lem(ge|/cllsc2) sil(f|ta)va(dc|cl~) pro(de|peS)fert,(efe.|ta-/pr) (,) 
+Fron(d|vi>)de,(dh|vi/qihj) fló(hg|vi-su1sut1)re,(ed|/cl-) gér(f|pe>)mi(ed|vi-su1sut1)ne:(d.|ta) *(:) 
+Dul(h|vi)ce(hji|//to) li(g|vi)gnum,(ge|vi>) dul(f|vi)ces(dc|/cllsc2) cla(de|peS)vos,(efe.|ta-/pr) (,) 
+Dul(d|vi>)ce(dh|vi/qihj) pon(hg|cl>)dus(ed|/cl) sú(f|/cl-)sti(ed|ci-)net.(d.|ta) (::d+)
