@@ -82,6 +82,20 @@
 }
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\translateto{SK}
+\def\versseparator{\ding{88} }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohstranslate}[1]{%
+\IfFileExists{./translations/\translateto/#1.tex}{
+%\InputIfFileExists{./translations/\translateto/#1.tex}{
+\hrulefill
+\begin{footnotesize}
+\textit{\input{./translations/\translateto/#1.tex}}
+\hrulefill
+\par
+\end{footnotesize}
+}{}
+}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\ohspsalmus}[3]{%
 \gresetinitiallines{0}%
