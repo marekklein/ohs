@@ -1,20 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\cfoot{\textit{\small{Officium Hebdomadæ sanctæ - Feria III - \thepage / \pageref{LastPage}}}}
-\sloppy
-\grechangecount{endofwordpenalty}{-2000}
-\grechangestaffsize{23}
-\grechangedim{spaceabovelines}{8mm}{scalable}
+\ohsformathymnus
 
 \ohschapter{Ad Matutinum}
-
-\newlength{\test}
-\setlength{\test}{2mm}
-%\nadpisleft{Úvod}
-\addtolength{\test}{14pt} %<- Set this to the height of your text.
-%\grechangedim{spacelinestext}{\test}{scalable}
-
-%\grechangedim{annotationraise}{-7 mm}{scalable}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \gregorioscore{./ant/ant-inv-christum-tentatum}
@@ -27,154 +15,98 @@
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\grechangedim{annotationraise}{0 mm}{scalable}
-\grechangedim{annotationseparation}{2 mm}{scalable}
-\grechangestaffsize{20}
-\grechangedim{spaceabovelines}{7mm}{scalable}
-\greannotation{\color{red} \small 1. Ant.}
-\greannotation{\small IV g}
+\ohsformatantiphona
+\ohsannotation{1. Ant.}{IV g}
 \gregorioscore{./ant/ant-expugna}
-\nadpisleft{Psalmus 34 - 1}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps034-1-4g}
-\input{./psalmi/ps034-1-21-01.tex}
-\gregorioscore{./ant/ant-expugna}
+\ohspsalmus{Psalmus 34 - I}{./psalmi/ps034-1-4g}{./psalmi/ps034-1-21-01.tex}
+\ohsscorenostar{./ant/ant-expugna}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 2. Ant.}
-\greannotation{\small IV g}
+\ohsannotation{2. Ant.}{IV g}
 \gregorioscore{./ant/ant-restitue}
-\nadpisleft{Psalmus 34 - 2}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps034-2-1g}
-\input{./psalmi/ps034-2-02-21.tex}
-\gregorioscore{./ant/ant-restitue}
-\separator{4}
+\ohspsalmus{Psalmus 34 - II}{./psalmi/ps034-2-1g}{./psalmi/ps034-2-02-21.tex}
+\ohsscorenostar{./ant/ant-restitue}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \gresetinitiallines{1}
-\greannotation{\color{red} \small 3. Ant.}
-\greannotation{\small II D}
+\ohsannotation{3. Ant.}{II D}
 \gregorioscore{./ant/ant-exsurge_domine}
-\nadpisleft{Psalmus 34 - 3}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps034-3-2D}
-\input{./psalmi/ps034-3-01-11.tex}
-\gregorioscore{./ant/ant-exsurge_domine}
+\ohspsalmus{Psalmus 34 - III}{./psalmi/ps034-3-2D}{./psalmi/ps034-3-01-11.tex}
+\ohsscorenostar{./ant/ant-exsurge_domine}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsannotation{4. Ant.}{VII c}
+\gregorioscore{./ant/ant-noli_aemulari}
+\ohspsalmus{Psalmus 36 - I}{./psalmi/ps036-1-7c}{./psalmi/ps036-1-02-02.tex}
+\ohsscorenostar{./ant/ant-noli_aemulari}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \gresetinitiallines{1}
-\greannotation{\color{red} \small 4. Ant.}
-\greannotation{\small VII c}
-\gregorioscore{./ant/ant-noli_aemulari}
-\nadpisleft{Psalmus 36 - 1}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps036-1-7c}
-\input{./psalmi/ps036-1-02-02.tex}
-\gregorioscore{./ant/ant-noli_aemulari}
-\separator{4}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 5. Ant.}
-\greannotation{\small IV A}
+\ohsannotation{5. Ant.}{IV A}
 \gregorioscore{./ant/ant-brachia_peccatorum}
-\nadpisleft{Psalmus 36 - 2}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps036-2-4A}
-\input{./psalmi/ps036-2-21-31.tex}
-\gregorioscore{./ant/ant-brachia_peccatorum}
-\separator{3}
+\ohspsalmus{Psalmus 36 - II}{./psalmi/ps036-2-4A}{./psalmi/ps036-2-21-31.tex}
+\ohsscorenostar{./ant/ant-brachia_peccatorum}
+\separator{5}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 6. Ant.}
-\greannotation{\small VIII G}
+\ohsannotation{6. Ant.}{VIII G}
 \gregorioscore{./ant/ant-custodi_innocentiam}
-\nadpisleft{Psalmus 36 - 3}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps036-3-8G}
-\input{./psalmi/ps036-3-01-21.tex}
-\gregorioscore{./ant/ant-custodi_innocentiam}
+\ohspsalmus{Psalmus 36 - III}{./psalmi/ps036-3-8G}{./psalmi/ps036-3-01-21.tex}
+\ohsscorenostar{./ant/ant-custodi_innocentiam}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 7. Ant.}
-\greannotation{\small VI F}
+\ohsannotation{7. Ant.}{VI F}
 \gregorioscore{./ant/ant-ne_in_irra_tua}
-\nadpisleft{Psalmus 37 - 1}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps037-1-6F}
-\input{./psalmi/ps037-1-02-21.tex}
-\gregorioscore{./ant/ant-ne_in_irra_tua}
+\ohspsalmus{Psalmus 37 - I}{./psalmi/ps037-1-6F}{./psalmi/ps037-1-02-21.tex}
+\ohsscorenostar{./ant/ant-ne_in_irra_tua}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 8. Ant.}
-\greannotation{\small II D}
+\ohsannotation{8. Ant.}{II D}
 \gregorioscore{./ant/ant-intende}
-\nadpisleft{Psalmus 37 - 2}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps037-2-2D}
-\input{./psalmi/ps037-2-01-11.tex}
-\gregorioscore{./ant/ant-intende}
+\ohspsalmus{Psalmus 37 - II}{./psalmi/ps037-2-2D}{./psalmi/ps037-2-01-11.tex}
+\ohsscorenostar{./ant/ant-intende}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 9. Ant.}
-\greannotation{\small VIII c}
+\ohsannotation{9. Ant.}{VIII c}
 \gregorioscore{./ant/ant-amove}
-\nadpisleft{Psalmus 38}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps038-8c}
-\input{./psalmi/ps038-01-21.tex}
-\gregorioscore{./ant/ant-amove}
+\ohspsalmus{Psalmus 38}{./psalmi/ps038-8c}{./psalmi/ps038-01-21.tex}
+\ohsscorenostar{./ant/ant-amove}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
-\grechangestaffsize{23}
-\grechangedim{spaceabovelines}{11mm}{scalable}
-\gresetnabcfont{gregall}{12}
-\greannotation{\color{red} \small Resp. 1}
-\greannotation{\small VII}
-\gresetinitiallines{1}
+\ohsformatresponsorium
+\ohsannotation{Resp. 1}{VII}
 \gregorioscore{./resp/resp-contumelias}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
-\grechangestaffsize{23}
-\grechangedim{spaceabovelines}{11mm}{scalable}
-\gresetnabcfont{gregall}{12}
-\greannotation{\color{red} \small Resp. 2}
-\greannotation{\small VIII}
-\gresetinitiallines{1}
+\ohsformatresponsorium
+\grechangedim{spaceabovelines}{6mm}{scalable}%
+\ohsannotation{Resp. 2}{VIII}
 \gregorioscore{./resp/resp-deus_israel}
 %\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
-\grechangestaffsize{23}
-\grechangedim{spaceabovelines}{11mm}{scalable}
-\gresetnabcfont{gregall}{12}
-\greannotation{\color{red} \small Resp. 3}
-\greannotation{\small II}
-\gresetinitiallines{1}
+\ohsformatresponsorium
+\ohsannotation{Resp. 3}{II}
 \gregorioscore{./resp/resp-synagoga}
 %\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{4em}
-\begin{center}\greseparator{2}{35}\end{center}
+\vspace{1em}
+\begin{center}\greseparator{2}{20}\end{center}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

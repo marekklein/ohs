@@ -1,53 +1,30 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\sloppy
-\grechangecount{endofwordpenalty}{-2000}
 
 \ohschapter{Ad Nonam}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
-\gresetinitiallines{0}
 
-\nadpisleft{Psalmus 118 - XVII}
-\gregorioscore{./psalmi/ps118-17-in_directum}
-\input{./psalmi/ps118-7-21-00-nogp.tex}
-
+\ohspsalmus{Psalmus 118 - XVII}{./psalmi/ps118-17-in_directum}{./psalmi/ps118-7-21-00-nogp.tex}
 \pagebreak[3]
-\nadpisleft{Psalmus 118 - XVIII}
-\gregorioscore{./psalmi/ps118-18-in_directum}
-\input{./psalmi/ps118-18-21-00-nogp.tex}
-
+\ohspsalmus{Psalmus 118 - XVIII}{./psalmi/ps118-18-in_directum}{./psalmi/ps118-18-21-00-nogp.tex}
 \pagebreak[3]
-\nadpisleft{Psalmus 118 - XIX}
-\gregorioscore{./psalmi/ps118-19-in_directum}
-\input{./psalmi/ps118-19-21-00-nogp.tex}
-
+\ohspsalmus{Psalmus 118 - XIX}{./psalmi/ps118-19-in_directum}{./psalmi/ps118-19-21-00-nogp.tex}
 \pagebreak[3]
-\nadpisleft{Psalmus 118 - XX}
-\gregorioscore{./psalmi/ps118-20-in_directum}
-\input{./psalmi/ps118-20-21-00-nogp.tex}
-
+\ohspsalmus{Psalmus 118 - XX}{./psalmi/ps118-20-in_directum}{./psalmi/ps118-20-21-00-nogp.tex}
 \pagebreak[3]
-\nadpisleft{Psalmus 118 - XXI}
-\gregorioscore{./psalmi/ps118-21-in_directum}
-\input{./psalmi/ps118-21-21-00-nogp.tex}
-
+\ohspsalmus{Psalmus 118 - XXI}{./psalmi/ps118-21-in_directum}{./psalmi/ps118-21-21-00-nogp.tex}
 \pagebreak[3]
-\nadpisleft{Psalmus 118 - XXII}
-\gregorioscore{./psalmi/ps118-22-in_directum}
-\input{./psalmi/ps118-22-21-00-nogp.tex}
-
+\ohspsalmus{Psalmus 118 - XXII}{./psalmi/ps118-22-in_directum}{./psalmi/ps118-22-21-00-nogp.tex}
 
 %\separator{3}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./other/christus_factus-sine_cantu.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
-%\pagebreak[4]
+
+\pagebreak[4]
 
 \input{./oratio/pater_noster-secreto.tex}
 
