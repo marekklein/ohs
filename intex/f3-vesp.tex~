@@ -1,11 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\cfoot{\textit{\small{Officium Hebdomadæ sanctæ - Feria III - \thepage / \pageref{LastPage}}}}
-\sloppy
-\grechangecount{endofwordpenalty}{-2000}
-\grechangestaffsize{18}
-\grechangedim{spaceabovelines}{5mm}{scalable}
-
 \ohschapter{Ad Vesperas}
 
 \input{./intex/deus-text.tex}
@@ -13,72 +7,48 @@
 \vspace{2em}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\grechangedim{annotationraise}{0 mm}{scalable}
-\grechangedim{annotationseparation}{2 mm}{scalable}
-\grechangestaffsize{20}
-\grechangedim{spaceabovelines}{7mm}{scalable}
-\greannotation{\color{red} \small 1. Ant.}
-\greannotation{\small VIII a}
+\ohsformatantiphona
+\ohsannotation{1. Ant.}{VIII a}
 \gregorioscore{./ant/ant-de_profundis}
-\nadpisleft{Psalmus 129}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps129-8a}
-\input{./psalmi/ps129-01-21.tex}
-\gregorioscore{./ant/ant-de_profundis}
+\ohspsalmus{Psalmus 129}{./psalmi/ps129-8a}{./psalmi/ps129-01-21.tex}
+\ohsscorenostar{./ant/ant-de_profundis}
+\ohstranslate{ps129}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 2. Ant.}
-\greannotation{\small t. irreg.}
+\ohsannotation{2. Ant.}{t. irreg.}
 \gregorioscore{./ant/ant-speret_israel}
-\nadpisleft{Psalmus 130}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps130-irreg}
-\input{./psalmi/ps130-01-40.tex}
-\gregorioscore{./ant/ant-speret_israel}
+\ohspsalmus{Psalmus 130}{./psalmi/ps130-irreg}{./psalmi/ps130-01-40.tex}
+\ohsscorenostar{./ant/ant-speret_israel}
+\ohstranslate{ps130}
 \separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 3. Ant.}
-\greannotation{\small t. irreg.}
+\ohsannotation{3. Ant.}{t. irreg.}
 \gregorioscore{./ant/ant-et_omnis}
-\nadpisleft{Psalmus 131}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps131-irreg}
-\input{./psalmi/ps131-01-40.tex}
-\gregorioscore{./ant/ant-et_omnis}
-\separator{3}
+\ohspsalmus{Psalmus 131}{./psalmi/ps131-irreg}{./psalmi/ps131-01-40.tex}
+\ohsscorenostar{./ant/ant-et_omnis}
+\ohstranslate{ps131}
+\separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 4. Ant.}
-\greannotation{\small I a}
+\ohsannotation{4. Ant.}{I a}
 \gregorioscore{./ant/ant-ecce_quam_bonum}
-\nadpisleft{Psalmus 132}
-
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps132-1a}
-\input{./psalmi/ps132-02-21.tex}
-\gregorioscore{./ant/ant-ecce_quam_bonum}
+\ohspsalmus{Psalmus 132}{./psalmi/ps132-1a}{./psalmi/ps132-02-21.tex}
+\ohsscorenostar{./ant/ant-ecce_quam_bonum}
+\ohstranslate{ps132}
 %\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./capitulum/ca-ier-11-20.tex}
 
 \vspace{2em}
-\greannotation{\color{red} \small R. br.}
-\greannotation{\small IV}
-\gresetinitiallines{1}
+\ohsannotation{R. br.}{IV}
 \gregorioscore{./rbr/rbr-de_ore_leonis}
 
 \vspace{2em}
 
-\grechangestaffsize{23}
-\grechangedim{spaceabovelines}{6mm}{scalable}
+\ohsformathymnus
 
-\greannotation{\color{red} \small Hym.}
-\greannotation{\small I}
-\gresetinitiallines{1}
+\ohsannotation{Hym.}{I}
 \gregorioscore{./hymni/hy-vexilla_regis}
 
 \vspace{2em}
@@ -88,20 +58,12 @@
 \separator{4}
 %\vspace{1em}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\grechangestaffsize{20}
-\grechangedim{spaceabovelines}{7mm}{scalable}
-\gresetinitiallines{1}
-\greannotation{\color{red} \small Ad Magnif.}
-\greannotation{\small IV A*}
-\grechangedim{spacelinestext}{8mm}{scalable}
+\ohsformatantiphona
+\ohsannotation{Ad Magnif.}{IV A*}
 \gregorioscore{./ant/ant-potestatem}
-\nadpisleft{Magnificat}
-\gresetinitiallines{0}
-\grechangedim{spacelinestext}{6mm}{scalable}
-\gregorioscore{./psalmi/magnificat-4Astar}
-\input{./psalmi/magnificat-21-31.tex}
-\grechangedim{spacelinestext}{8mm}{scalable}
-\gregorioscore{./ant/ant-potestatem}
+\ohspsalmus{Magnificat}{./psalmi/magnificat-4Astar}{./psalmi/magnificat-21-31.tex}
+\ohsscorenostar{./ant/ant-potestatem}
+\ohstranslate{magnificat}
 %\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -117,7 +79,7 @@
 \gregorioscore{./other/benedicamus-domino}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace{1em}
-\begin{center}\greseparator{2}{25}\end{center}
+\begin{center}\greseparator{2}{20}\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

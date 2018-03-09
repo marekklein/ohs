@@ -1,118 +1,71 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\cfoot{\textit{\small{Officium Hebdomadæ sanctæ - Feria II - \thepage / \pageref{LastPage}}}}
-\sloppy
-\grechangecount{endofwordpenalty}{-2000}
-\grechangestaffsize{18}
-\grechangedim{spaceabovelines}{5mm}{scalable}
-%\nadpisa{Feria secunda Hebdomadæ Sanctæ}
-
-%\nadpisa{Ad vesperas}
 \ohschapter{Ad Vesperas}
-
-%\newlength{\test}
-%\setlength{\test}{2mm}
-%\addtolength{\test}{14pt} %<- Set this to the height of your text.
-%\grechangedim{spacelinestext}{\test}{scalable}
 
 \input{./intex/deus-text.tex}
 
 \vspace{2em}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\grechangedim{annotationraise}{0 mm}{scalable}
-\grechangedim{annotationseparation}{2 mm}{scalable}
-\grechangestaffsize{20}
-\grechangedim{spaceabovelines}{7mm}{scalable}
-\greannotation{\color{red} \small 1. Ant.}
-\greannotation{\small t. pereg}
+\ohsformatantiphona
+\ohsannotation{1. Ant.}{t. pereg}
 \gregorioscore{./ant/ant-nos_qui_vivimus}
-\nadpisleft{Psalmus 113}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps113-per}
-\input{./psalmi/ps113-31-11.tex}
-\gregorioscore{./ant/ant-nos_qui_vivimus}
+\ohspsalmus{Psalmus 113}{./psalmi/ps113-per}{./psalmi/ps113-31-11.tex}
+\ohsscorenostar{./ant/ant-nos_qui_vivimus}
+\ohstranslate{ps113}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 2. Ant.}
-\greannotation{\small I g2}
+\ohsannotation{2. Ant.}{I g2}
 \gregorioscore{./ant/ant-inclinavit_dominus}
-\nadpisleft{Psalmus 114}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps114-1g2}
-\input{./psalmi/ps114-02-21.tex}
-\gregorioscore{./ant/ant-inclinavit_dominus}
+\ohspsalmus{Psalmus 114}{./psalmi/ps114-1g2}{./psalmi/ps114-02-21.tex}
+\ohsscorenostar{./ant/ant-inclinavit_dominus}
+\ohstranslate{ps114}
 \separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 3. Ant.}
-\greannotation{\small VIII G}
+\ohsannotation{3. Ant.}{VIII G}
 \gregorioscore{./ant/ant-credidi}
-\nadpisleft{Psalmus 115}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps115-8a}
-\input{./psalmi/ps115-01-21.tex}
-\nadpisleft{Psalmus 116}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps116-8a}
-\input{./psalmi/ps116-01-21.tex}
-\gregorioscore{./ant/ant-credidi}
+\ohspsalmus{Psalmus 115}{./psalmi/ps115-8a}{./psalmi/ps115-01-21.tex}
+\ohstranslate{ps115}
+\ohspsalmus{Psalmus 116}{./psalmi/ps116-8a}{./psalmi/ps116-01-21.tex}
+\ohsscorenostar{./ant/ant-credidi}
+\ohstranslate{ps116}
 \separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gresetinitiallines{1}
-\greannotation{\color{red} \small 4. Ant.}
-\greannotation{\small II D}
+\ohsannotation{4. Ant.}{II D}
 \gregorioscore{./ant/ant-saepe_expugnaverunt}
-\nadpisleft{Psalmus 128}
-
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps128-2D}
-\input{./psalmi/ps128-01-11.tex}
-\gregorioscore{./ant/ant-saepe_expugnaverunt}
+\ohspsalmus{Psalmus 128}{./psalmi/ps128-2D}{./psalmi/ps128-01-11.tex}
+\ohsscorenostar{./ant/ant-saepe_expugnaverunt}
+\ohstranslate{ps128}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./capitulum/ca-ier-11-20.tex}
 
-\vspace{2em}
-\greannotation{\color{red} \small R. br.}
-\greannotation{\small IV}
-\gresetinitiallines{1}
+\pagebreak
+\ohsannotation{R. br.}{IV}
 \gregorioscore{./rbr/rbr-de_ore_leonis}
 
 \vspace{2em}
+\ohsformathymnus
 
-\grechangestaffsize{23}
-\grechangedim{spaceabovelines}{8mm}{scalable}
-
-\greannotation{\color{red} \small Hym.}
-\greannotation{\small I}
-\gresetinitiallines{1}
+\ohsannotation{Hym.}{I}
 \gregorioscore{./hymni/hy-vexilla_regis}
 
 \vspace{2em}
-
 \input{./versiculum/vers-eripe-homine.tex}
 
 \separator{2}
 \vspace{1em}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\grechangestaffsize{20}
-\grechangedim{spaceabovelines}{7mm}{scalable}
-\gresetinitiallines{1}
-\greannotation{\color{red} \small Ad Magnif.}
-\greannotation{\small IV A*}
+\ohsformatantiphona
+\ohsannotation{Ad Magnif.}{IV A*}
 \grechangedim{spacelinestext}{8mm}{scalable}
 \gregorioscore{./ant/ant-non_haberes}
-\nadpisleft{Magnificat}
-\gresetinitiallines{0}
 \grechangedim{spacelinestext}{6mm}{scalable}
-\gregorioscore{./psalmi/magnificat-4Astar}
-\input{./psalmi/magnificat-21-31.tex}
+\ohspsalmus{Magnificat}{./psalmi/magnificat-4Astar}{./psalmi/magnificat-21-31.tex}
 \grechangedim{spacelinestext}{8mm}{scalable}
-\gregorioscore{./ant/ant-non_haberes}
+\ohsscorenostar{./ant/ant-non_haberes}
+\ohstranslate{magnificat}
 %\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -128,7 +81,7 @@
 \gregorioscore{./other/benedicamus-domino}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace{3em}
-\begin{center}\greseparator{2}{35}\end{center}
+\begin{center}\greseparator{2}{20}\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

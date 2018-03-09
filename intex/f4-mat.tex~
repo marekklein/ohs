@@ -5,14 +5,17 @@
 \ohschapter{Ad Matutinum}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gregorioscore{./ant/ant-inv-christum-tentatum}
-\nadpisleft{Psalmus 94}
-\grechangedim{annotationraise}{-4 mm}{scalable}
-\greannotation{\small IV*}
-\gregorioscore{./venite4b-christum}
-\begin{center}\greseparator{3}{25}\end{center}
-\gregorioscore{./hymni/hy-pange_lingua}
-\separator{4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\nadpisleft{Invitatorium} \& \nadpisleft{Hymnus:} P.~\pageref{inv-christum-tentatum}
+\vspace{1em}
+%\gregorioscore{./ant/ant-inv-christum-tentatum}
+%\nadpisleft{Psalmus 94}
+%\grechangedim{annotationraise}{-4 mm}{scalable}
+%\greannotation{\small IV*}
+%\gregorioscore{./venite4b-christum}
+%\begin{center}\greseparator{3}{25}\end{center}
+%\gregorioscore{./hymni/hy-pange_lingua}
+%\separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
@@ -20,6 +23,7 @@
 \gregorioscore{./ant/ant-speciosus_forma}
 \ohspsalmus{Psalmus 44 - I}{./psalmi/ps044-1-1g}{./psalmi/ps044-1-02-21.tex}
 \ohsscorenostar{./ant/ant-speciosus_forma}
+\ohstranslate{ps044-1}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -28,6 +32,7 @@
 \gregorioscore{./ant/ant-confitebuntur_tibi}
 \ohspsalmus{Psalmus 44 - II}{./psalmi/ps044-2-6F}{./psalmi/ps044-2-02-21.tex}
 \ohsscorenostar{./ant/ant-confitebuntur_tibi}
+\ohstranslate{ps044-2}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -36,6 +41,7 @@
 \gregorioscore{./ant/ant-adjutor}
 \ohspsalmus{Psalmus 45}{./psalmi/ps045-4g}{./psalmi/ps045-21-01.tex}
 \ohsscorenostar{./ant/ant-adjutor}
+\ohstranslate{ps045}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -44,6 +50,7 @@
 \gregorioscore{./ant/ant-magnus_dominus}
 \ohspsalmus{Psalmus 47}{./psalmi/ps047-4E}{./psalmi/ps047-21-31.tex}
 \ohsscorenostar{./ant/ant-magnus_dominus}
+\ohstranslate{ps047}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -52,6 +59,7 @@
 \gregorioscore{./ant/ant-os_meum_loquetur}
 \ohspsalmus{Psalmus 48 - I}{./psalmi/ps048-1-7c}{./psalmi/ps048-1-02-02.tex}
 \ohsscorenostar{./ant/ant-os_meum_loquetur}
+\ohstranslate{ps048-1}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -60,6 +68,7 @@
 \gregorioscore{./ant/ant-ne_timueris}
 \ohspsalmus{Psalmus 48 - II}{./psalmi/ps048-2-8G}{./psalmi/ps048-2-01-21.tex}
 \ohsscorenostar{./ant/ant-ne_timueris}
+\ohstranslate{ps048-2}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -68,6 +77,7 @@
 \gregorioscore{./ant/ant-deus_deorum}
 \ohspsalmus{Psalmus 49 - I}{./psalmi/ps049-1-8c}{./psalmi/ps049-1-01-21.tex}
 \ohsscorenostar{./ant/ant-deus_deorum}
+\ohstranslate{ps049-1}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -76,6 +86,7 @@
 \gregorioscore{./ant/ant-immola_deo}
 \ohspsalmus{Psalmus 49 - II}{./psalmi/ps049-2-1g3}{./psalmi/ps049-2-02-21.tex}
 \ohsscorenostar{./ant/ant-immola_deo}
+\ohstranslate{ps049-2}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -84,6 +95,7 @@
 \gregorioscore{./ant/ant-intelligite}
 \ohspsalmus{Psalmus 49 - III}{./psalmi/ps049-3-8c}{./psalmi/ps049-3-01-21.tex}
 \ohsscorenostar{./ant/ant-intelligite}
+\ohstranslate{ps049-3}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

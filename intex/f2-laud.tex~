@@ -14,6 +14,7 @@
 \gregorioscore{./ant/ant-faciem_meam}
 \ohspsalmus{Psalmus 50}{./psalmi/ps050-4A}{./psalmi/ps050-21-31.tex}
 \ohsscorenostar{./ant/ant-faciem_meam}
+\ohstranslate{ps050}
 \separator{4}
 %\pagebreak
 
@@ -22,20 +23,25 @@
 \gregorioscore{./ant/ant-appenderunt}
 \ohspsalmus{Psalmus 35}{./psalmi/ps035-4E}{./psalmi/ps035-21-31.tex}
 \ohsscorenostar{./ant/ant-appenderunt}
+\ohstranslate{ps035}
 \separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{3. Ant.}{VIII G}
 \gregorioscore{./ant/ant-inundaverunt}
 \ohspsalmus{Canticum Isaiæ Prophetæ, Cap. 12}{./psalmi/cip12-8G}{./psalmi/cip12-01-21.tex}
 \ohsscorenostar{./ant/ant-inundaverunt}
+\ohstranslate{cip12}
 \separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{4. Ant.}{VIII G}
 \gregorioscore{./ant/ant-labia_insurgentium}
 \ohspsalmus{Psalmus 148}{./psalmi/ps148-8G}{./psalmi/ps148-01-21.tex}
+\ohstranslate{ps148}
 \ohspsalmus{Psalmus 149}{./psalmi/ps149-8G}{./psalmi/ps149-01-21.tex}
+\ohstranslate{ps149}
 \ohspsalmus{Psalmus 150}{./psalmi/ps150-8G}{./psalmi/ps150-01-21.tex}
 \ohsscorenostar{./ant/ant-labia_insurgentium}
+\ohstranslate{ps150}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -60,9 +66,10 @@
 \grechangedim{spacelinestext}{8mm}{scalable}
 \gregorioscore{./ant/ant-clarifica_me}
 \grechangedim{spacelinestext}{6mm}{scalable}
-\ohspsalmus{Benedictus}{./psalmi/benedictus-1f}{./psalmi/benedictus-02-21.tex}
+\ohspsalmus{Canticum Zachariae (Luc. 1:68-79)}{./psalmi/benedictus-1f}{./psalmi/benedictus-02-21.tex}
 \grechangedim{spacelinestext}{8mm}{scalable}
 \ohsscorenostar{./ant/ant-clarifica_me}
+\ohstranslate{benedictus}
 %\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

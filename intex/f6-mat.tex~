@@ -1,0 +1,193 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformathymnus
+
+\ohschapter{Ad Matutinum}
+
+%\begin{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\nadpisb{In I Nocturno}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformatantiphona
+\ohsannotation{1. Ant.}{VIII G}
+\gregorioscore{./ant/ant-astiterunt}
+\ohspsalmus{Psalmus 2}{./psalmi/ps002-8G}{./psalmi/ps002-01-21.tex}
+\ohsscorenostar{./ant/ant-astiterunt}
+\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\gresetinitiallines{1}
+\ohsformatantiphona
+\ohsannotation{2. Ant.}{VIII G}
+\gregorioscore{./ant/ant-diviserunt}
+\ohspsalmus{Psalmus 21}{./psalmi/ps021-8G}{./psalmi/ps021-01-21.tex}
+\ohsscorenostar{./ant/ant-diviserunt}
+\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\gresetinitiallines{1}
+\ohsformatantiphona
+\ohsannotation{3. Ant.}{VIII G}
+\gregorioscore{./ant/ant-insurrexerunt}
+\ohspsalmus{Psalmus 26}{./psalmi/ps026-8G}{./psalmi/ps026-01-21.tex}
+\ohsscorenostar{./ant/ant-insurrexerunt}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\gregorioscore{./versiculum/vers-diviserunt}
+\vspace{1em}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\ohsformatresponsorium
+\ohsannotation{Resp. 1}{III}
+\gregorioscore{./resp/resp-omnes_amici_mei}
+\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\ohsformatresponsorium
+\ohsannotation{Resp. 2}{II}
+\gregorioscore{./resp/resp-velum_templi}
+\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\ohsformatresponsorium
+\ohsannotation{Resp. 3}{VIII}
+\gregorioscore{./resp/resp-vinea_mea}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\nadpisb{In II Nocturno}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformatantiphona
+\grechangedim{spaceabovelines}{5mm}{scalable}%
+\ohsannotation{4. Ant.}{VIII G}
+\gregorioscore{./ant/ant-vim_faciebant}
+\ohspsalmus{Psalmus 37}{./psalmi/ps037-8G}{./psalmi/ps037-01-21-nogp.tex}
+\ohsscorenostar{./ant/ant-vim_faciebant}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformatantiphona
+\grechangedim{spaceabovelines}{5mm}{scalable}%
+\ohsannotation{5. Ant.}{IV A*}
+\gregorioscore{./ant/ant-confundantur}
+\ohspsalmus{Psalmus 39}{./psalmi/ps039-4Astar}{./psalmi/ps039-21-31-nogp.tex}
+\ohsscorenostar{./ant/ant-confundantur}
+%\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformatantiphona
+\grechangedim{spaceabovelines}{5mm}{scalable}%
+\ohsannotation{6. Ant.}{IV A*}
+\gregorioscore{./ant/ant-alieni}
+\ohspsalmus{Psalmus 53}{./psalmi/ps053-4Astar}{./psalmi/ps053-21-31-nogp.tex}
+\pagebreak[3]
+\ohsscorenostar{./ant/ant-alieni}
+\separator{3}
+
+\gregorioscore{./versiculum/vers-insurrexerunt}
+%\vspace{2em}
+\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\ohsformatresponsorium
+\grechangedim{spaceabovelines}{6mm}{scalable}%
+\ohsannotation{Resp. 4}{VIII}
+\gregorioscore{./resp/resp-tamquam}
+%\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\ohsformatresponsorium
+\ohsannotation{Resp. 5}{VII}
+\gregorioscore{./resp/resp-tenebrae}
+%\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\ohsformatresponsorium
+\ohsannotation{Resp. 6}{VIII}
+\gregorioscore{./resp/resp-animam_meam}
+\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\end{comment}
+
+\nadpisb{In III Nocturno}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformatantiphona
+\grechangedim{spaceabovelines}{4mm}{scalable}%
+\ohsannotation{7. Ant.}{I f}
+\gregorioscore{./ant/ant-ab_insurgentibus}
+\grechangedim{spaceabovelines}{4mm}{scalable}%
+\ohspsalmus{Psalmus 58}{./psalmi/ps058-1f}{./psalmi/ps058-02-21-nogp.tex}
+\ohsscorenostar{./ant/ant-ab_insurgentibus}
+\separator{3}
+%\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformatantiphona
+\grechangedim{spaceabovelines}{5mm}{scalable}%
+\ohsannotation{8. Ant.}{VIII G}
+\gregorioscore{./ant/ant-longe_fecisti}
+\ohspsalmus{Psalmus 87}{./psalmi/ps087-8G}{./psalmi/ps087-01-21-nogp.tex}
+\ohsscorenostar{./ant/ant-longe_fecisti}
+\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ohsformatantiphona
+\grechangedim{spaceabovelines}{5mm}{scalable}%
+\ohsannotation{9. Ant.}{VIII G}
+\gregorioscore{./ant/ant-captabunt}
+\ohspsalmus{Psalmus 93}{./psalmi/ps093-8G}{./psalmi/ps093-01-21-nogp.tex}
+\ohsscorenostar{./ant/ant-captabunt}
+%\separator{3}
+
+\gregorioscore{./versiculum/vers-locuti_sunt}
+%\vspace{2em}
+\separator{4}
+%\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\ohsformatresponsorium
+\grechangedim{spaceabovelines}{6mm}{scalable}%
+\ohsannotation{Resp. 7}{VI}
+\gregorioscore{./resp/resp-tradiderunt}
+%\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\ohsformatresponsorium
+\grechangedim{spaceabovelines}{7mm}{scalable}%
+\ohsannotation{Resp. 8}{VIII}
+\gregorioscore{./resp/resp-jesum_tradidit}
+%\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\ohsformatresponsorium
+\ohsannotation{Resp. 9}{I}
+\gregorioscore{./resp/resp-caligaverunt}
+%\separator{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{4em}
+\begin{center}\greseparator{2}{20}\end{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

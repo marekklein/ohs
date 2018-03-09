@@ -5,14 +5,16 @@
 \ohschapter{Ad Matutinum}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\gregorioscore{./ant/ant-inv-christum-tentatum}
-\nadpisleft{Psalmus 94}
-\grechangedim{annotationraise}{-4 mm}{scalable}
-\greannotation{\small IV*}
-\gregorioscore{./venite4b-christum}
-\begin{center}\greseparator{3}{25}\end{center}
-\gregorioscore{./hymni/hy-pange_lingua}
-\separator{4}
+\nadpisleft{Invitatorium} \& \nadpisleft{Hymnus:} P.~\pageref{inv-christum-tentatum}
+\vspace{1em}
+%\gregorioscore{./ant/ant-inv-christum-tentatum}
+%\nadpisleft{Psalmus 94}
+%\grechangedim{annotationraise}{-4 mm}{scalable}
+%\greannotation{\small IV*}
+%\gregorioscore{./venite4b-christum}
+%\begin{center}\greseparator{3}{25}\end{center}
+%\gregorioscore{./hymni/hy-pange_lingua}
+%\separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
