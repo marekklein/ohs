@@ -1,6 +1,7 @@
 \input{init-a5.tex}
 \def \feria {Feria quarta Hebdomadæ Sanctæ}
 \def \feriashort {Feria IV}
+
 \input{./intex/f4-mat.tex}
 %\input{./intex/f4-laud.tex}
 %\input{./intex/f4-ter.tex}

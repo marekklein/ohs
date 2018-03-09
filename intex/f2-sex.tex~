@@ -1,72 +1,46 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\cfoot{\textit{\small{Officium Hebdomadæ sanctæ - Feria II - \thepage / \pageref{LastPage}}}}
 \sloppy
 \grechangecount{endofwordpenalty}{-2000}
 \grechangestaffsize{18}
 \grechangedim{spaceabovelines}{5mm}{scalable}
-%\nadpisa{Feria secunda Hebdomadæ Sanctæ}
 
-%\nadpisa{Ad sextam}
 \ohschapter{Ad Sextam}
-
-%\newlength{\test}
-%\setlength{\test}{2mm}
-%\addtolength{\test}{14pt} %<- Set this to the height of your text.
-%\grechangedim{spacelinestext}{\test}{scalable}
 
 \input{./intex/deus-text.tex}
 
 \vspace{2em}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\grechangestaffsize{23}
-\grechangedim{spaceabovelines}{8mm}{scalable}
-
-\greannotation{\color{red} \small Hym.}
-\greannotation{\small II}
-\gresetinitiallines{1}
+\ohsformathymnus
+\ohsannotation{Hym.}{II}
 \input{./hymni/hy-qua_christus.tex}
 
-%\vspace{2em}
 \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\grechangedim{annotationraise}{0 mm}{scalable}
-\grechangedim{annotationseparation}{2 mm}{scalable}
-\grechangestaffsize{20}
-\grechangedim{spaceabovelines}{7mm}{scalable}
-\greannotation{\color{red} \small 1. Ant.}
-\greannotation{\small IV E}
+\ohsformatantiphona
+\ohsannotation{1. Ant.}{IV E}
 \gregorioscore{./ant/ant-appenderunt}
-\nadpisleft{Psalmus 118 - XVII}
-\gresetinitiallines{0}
-\gregorioscore{./psalmi/ps118-17-4E}
-\input{./psalmi/ps118-17-21-31.tex}
-\nadpisleft{Psalmus 118 - XVIII}
-\gregorioscore{./psalmi/ps118-18-4E}
-\input{./psalmi/ps118-18-21-31.tex}
-\nadpisleft{Psalmus 118 - XIX}
-\gregorioscore{./psalmi/ps118-19-4E}
-\input{./psalmi/ps118-19-21-31.tex}
-\gregorioscore{./ant/ant-appenderunt}
+\ohspsalmus{Psalmus 118 - XVII}{./psalmi/ps118-17-4E}{./psalmi/ps118-17-21-31.tex}
+\ohstranslate{ps118-17}
+\ohspsalmus{Psalmus 118 - XVIII}{./psalmi/ps118-18-4E}{./psalmi/ps118-18-21-31.tex}
+\ohstranslate{ps118-18}
+\ohspsalmus{Psalmus 118 - XIX}{./psalmi/ps118-19-4E}{./psalmi/ps118-19-21-31.tex}
+\ohsscorenostar{./ant/ant-appenderunt}
+\ohstranslate{ps118-19}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./capitulum/ca-ier-17-13.tex}
 
 \vspace{2em}
-\greannotation{\color{red} \small R. br.}
-\greannotation{\small V}
-\gresetinitiallines{1}
+\ohsannotation{R. br.}{V}
 \gregorioscore{./rbr/rbr-erue2}
 
 \vspace{2em}
-
 \input{./versiculum/vers-de_ore_leonis.tex}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{3em}
@@ -81,7 +55,7 @@
 \gregorioscore{./other/benedicamus-domino2}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace{3em}
-\begin{center}\greseparator{2}{35}\end{center}
+\begin{center}\greseparator{2}{20}\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

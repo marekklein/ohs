@@ -12,19 +12,19 @@
 \gregorioscore{./ant/ant-proprio}
 \ohspsalmus{Psalmus 50}{./psalmi/ps050-7c-transp}{./psalmi/ps050-02-02-nogp.tex}
 \ohsscorenostar{./ant/ant-proprio}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{2. Ant.}{IV E}
 \gregorioscore{./ant/ant-anxiatus}
 \ohspsalmus{Psalmus 142}{./psalmi/ps142-4E}{./psalmi/ps142-21-31-nogp.tex}
 \ohsscorenostar{./ant/ant-anxiatus}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{3. Ant.}{I f}
 \gregorioscore{./ant/ant-ait}
 \ohspsalmus{Psalmus 84}{./psalmi/ps084-1f}{./psalmi/ps084-02-21-nogp.tex}
 \ohsscorenostar{./ant/ant-ait}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{4. Ant.}{I f}
 \gregorioscore{./ant/ant-dum_conturbata}
@@ -49,7 +49,7 @@
 \ohsformatantiphona
 \ohsannotation{Ad Bened.}{I g solemn.}
 \gregorioscore{./ant/ant-posuerunt}
-\ohspsalmus{Benedictus}{./psalmi/benedictus-1gsolemn}{./psalmi/benedictus-31-21-nogp.tex}
+\ohspsalmus{Canticum Zachariae (Luc. 1:68-79)}{./psalmi/benedictus-1gsolemn}{./psalmi/benedictus-31-21-nogp.tex}
 \ohsscorenostar{./ant/ant-posuerunt}
 %\separator{3}
 

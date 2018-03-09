@@ -11,6 +11,7 @@
 \gregorioscore{./ant/ant-vide_domine}
 \ohspsalmus{Psalmus 50}{./psalmi/ps050-7c2}{./psalmi/ps050-02-02.tex}
 \ohsscorenostar{./ant/ant-vide_domine}
+\ohstranslate{ps050}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -18,26 +19,32 @@
 \gregorioscore{./ant/ant-discerne_causam}
 \ohspsalmus{Psalmus 42}{./psalmi/ps042-7d}{./psalmi/ps042-02-02.tex}
 \ohsscorenostar{./ant/ant-discerne_causam}
+\ohstranslate{ps042}
 \separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{3. Ant.}{VIII G}
 \gregorioscore{./ant/ant-dum_tribularer}
 \ohspsalmus{Psalmus 56}{./psalmi/ps056-7a}{./psalmi/ps056-02-02.tex}
 \ohsscorenostar{./ant/ant-dum_tribularer}
+\ohstranslate{ps056}
 \separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{4. Ant.}{III a}
 \gregorioscore{./ant/ant-domine_vim_patior}
 \ohspsalmus{Canticum Ezechiæ}{./psalmi/cezech-3a}{./psalmi/cezech-02-11.tex}
 \ohsscorenostar{./ant/ant-domine_vim_patior}
+\ohstranslate{cezech}
 \separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{5. Ant.}{VIII G}
 \gregorioscore{./ant/ant-dixerunt_impii}
 \ohspsalmus{Psalmus 148}{./psalmi/ps148-8G}{./psalmi/ps148-01-21.tex}
+\ohstranslate{ps148}
 \ohspsalmus{Psalmus 149}{./psalmi/ps149-8G}{./psalmi/ps149-01-21.tex}
+\ohstranslate{ps149}
 \ohspsalmus{Psalmus 150}{./psalmi/ps150-8G}{./psalmi/ps150-01-21.tex}
 \ohsscorenostar{./ant/ant-dixerunt_impii}
+\ohstranslate{ps150}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -61,8 +68,9 @@
 \ohsformatantiphona
 \ohsannotation{Ad Bened.}{I g}
 \gregorioscore{./ant/ant-ante_diem_festum}
-\ohspsalmus{Benedictus}{./psalmi/benedictus-1g}{./psalmi/benedictus-02-21.tex}
+\ohspsalmus{Canticum Zachariae (Luc. 1:68-79)}{./psalmi/benedictus-1g}{./psalmi/benedictus-02-21.tex}
 \ohsscorenostar{./ant/ant-ante_diem_festum}
+\ohstranslate{benedictus}
 %\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

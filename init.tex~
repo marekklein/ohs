@@ -1,0 +1,197 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8
+
+% This is a simple template for a LuaLaTeX document using gregorio scores.
+%PATCH START - specify slovak in documentclass
+%\documentclass[17pt,slovak]{extarticle} % use larger type; default would be 10pt
+\documentclass[17pt,slovak,twoside,openright]{extreport} % use larger type; default would be 10pt
+\raggedbottom
+
+%PATCH END
+%\usepackage[16pt]{extsizes}
+
+
+\usepackage{titlesec}
+ 
+\titleformat
+{\chapter} % command
+[display] % shape
+{\bfseries\large\scshape\centering} % format
+{\thechapter} % label
+{0.5ex} % sep
+{
+%    \rule{\textwidth}{1pt}
+	\vspace{-5ex}%
+	\feria \\%
+%
+%    \centering
+} % before-code
+[
+%\vspace{-0.5ex}%
+%\rule{\textwidth}{0.3pt}
+] % after-code
+
+% usual packages loading:
+\usepackage{luatextra}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
+\geometry{a4paper,vmargin={20mm,20mm},hmargin={20mm,20mm},footskip={10mm}} % or letterpaper (US) or a5paper or....
+\usepackage[autocompile]{gregoriotex}
+%\usepackage{gregoriotex} % for gregorio score inclusion
+%\usepackage{fullpage} % to reduce the margins
+\grechangestaffsize{24}
+% choose the language of the document here
+\usepackage[slovak,latin]{babel}
+\usepackage[nosingleletter]{impnattypo}
+%\usepackage[slovak]{babel}
+\usepackage{graphicx}
+
+% use the two following package for using normal TeX fonts
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+% If you use usual TeX fonts, here is a starting point:
+%\usepackage{times}
+\usepackage{palatino}
+%\usepackage{tgtermes} % (a free font)
+% to change the font to something better, you can install the kpfonts package (if not already installed). To do so
+% go open the "TeX Live Manager" in the Menu Start->All Programs->TeX Live 2010
+%PATCH START
+%\usepackage{parallel}
+%\input{twocolumns-conf.tex}
+%PATCH END
+
+\setlength{\parindent}{0pt} 
+
+%\def\gretextformat#1{%
+%{\fontsize{17}{17}\selectfont #1\relax}%
+%}
+
+%\font \gregoriosymbolfont=gresym at 20pt
+
+%\def\greabovelinestextstyle#1{%
+%{\fontsize{12}{12}\selectfont #1\relax}%
+%}
+%\usepackage{parskip}
+\setlength{\parskip}{2mm}
+\usepackage{enumitem}
+\usepackage{color}
+\usepackage{fancyheadings}
+\usepackage{lastpage}
+\pagestyle{fancy}
+% here we begin the document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+% The title:
+\vspace{6 mm}
+\newcommand{\prizvuk}[1]{%
+{\textbf{#1}}%
+}
+\newcommand{\priprava}[1]{%
+{\textit{#1}}%
+}
+\newcommand{\flexa}[1]{%
+{\underline{#1}}%
+}
+\newcommand{\nadpisa}[1]{%
+{\begin{center}\large{\textbf{\textsc{#1}}}\end{center}}%
+}
+\newcommand{\nadpisb}[1]{%
+{\begin{center}\large{\textsc{#1}}\end{center}}%
+}
+\newcommand{\nadpisc}[1]{%\usepackage{fancyheadings}
+{\textit{\small{\textbf{#1}}}}%
+}
+\newcommand{\nadpisd}[1]{%
+{\begin{center}\textit{\small{#1}}\end{center}}%
+}
+\newcommand{\nadpisleft}[1]{%
+{\color{red} \textit{\small{#1}}}%
+\vspace{0.2em}%
+}
+\newcommand{\nadpisleftclose}[1]{%
+{\color{red} \textit{\small{#1}}}%
+\vspace{-1em}%
+}
+\newcommand{\nadpissub}[2]{%
+{\begin{center}\textbf{\textsc{#1}}
+\linebreak
+\textit{\small{#2}}\end{center}}%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\textaccent}[1]{%
+{\textbf{{#1}}}%
+%{\color{red} \textbf{\large{#1}}}%
+}
+\newcommand{\textprep}[1]{%
+%{\color{red} \textit{\large{#1}}}%
+{\textit{{#1}}}%
+}
+\newcommand{\textflex}[1]{%
+{\underline{#1}}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\separator}[1]{%
+\nopagebreak[4]
+\begin{center}\greseparator{3}{25}\end{center}
+\pagebreak[{#1}]
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\oratio}[1]{%
+\nadpisleft{Oratio:}
+
+\input{./other/domine_exaudi_orationem.tex}
+
+\vspace{1em}
+
+\input{{#1}}
+
+\vspace{1em}
+
+\input{./other/domine_exaudi_orationem.tex}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohschapter}[1]{%
+\chapter*{{#1}}%
+\thispagestyle{fancy}%
+\def \ohschaptername {{#1}}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohsformatantiphona}{%
+\grechangedim{annotationraise}{0 mm}{scalable}%
+\grechangedim{annotationseparation}{2 mm}{scalable}%
+\grechangestaffsize{20}%
+\grechangedim{spaceabovelines}{7mm}{scalable}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohsformathymnus}{%
+\grechangedim{annotationraise}{0 mm}{scalable}%
+\grechangedim{annotationseparation}{2 mm}{scalable}%
+\grechangestaffsize{23}%
+\grechangedim{spaceabovelines}{8mm}{scalable}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\hyphenation{nech umu-če-ný}
+
+\cfoot{\textit{\small{\thepage / \pageref{LastPage} - Officium Hebdomadæ sanctæ - \feriashort - \ohschaptername }}}
+
+
+% We set red lines here, comment it if you want black ones.
+%\redlines
+
+% We set VIII above the initial.
+%\greannotation{\small \textsc{\textbf{VIII}}}{\small \textsc{\textbf{VIII}}}
+
+% We type a text in the top right corner of the score:
+%\commentary{{\small \emph{Cf. Is. 30, 19 . 30 ; Ps. 79}}}
+
+% and finally we include the score. The file must be in the same directory as this one.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
