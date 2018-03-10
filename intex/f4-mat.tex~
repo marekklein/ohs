@@ -15,7 +15,7 @@
 %\gregorioscore{./venite4b-christum}
 %\begin{center}\greseparator{3}{25}\end{center}
 %\gregorioscore{./hymni/hy-pange_lingua}
-%\separator{4}
+%\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
@@ -33,7 +33,7 @@
 \ohspsalmus{Psalmus 44 - II}{./psalmi/ps044-2-6F}{./psalmi/ps044-2-02-21.tex}
 \ohsscorenostar{./ant/ant-confitebuntur_tibi}
 \ohstranslate{ps044-2}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
@@ -42,7 +42,8 @@
 \ohspsalmus{Psalmus 45}{./psalmi/ps045-4g}{./psalmi/ps045-21-01.tex}
 \ohsscorenostar{./ant/ant-adjutor}
 \ohstranslate{ps045}
-\separator{3}
+%\separator{3}
+\pagebreak[3]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
@@ -51,7 +52,7 @@
 \ohspsalmus{Psalmus 47}{./psalmi/ps047-4E}{./psalmi/ps047-21-31.tex}
 \ohsscorenostar{./ant/ant-magnus_dominus}
 \ohstranslate{ps047}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
@@ -60,7 +61,7 @@
 \ohspsalmus{Psalmus 48 - I}{./psalmi/ps048-1-7c}{./psalmi/ps048-1-02-02.tex}
 \ohsscorenostar{./ant/ant-os_meum_loquetur}
 \ohstranslate{ps048-1}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
@@ -69,7 +70,7 @@
 \ohspsalmus{Psalmus 48 - II}{./psalmi/ps048-2-8G}{./psalmi/ps048-2-01-21.tex}
 \ohsscorenostar{./ant/ant-ne_timueris}
 \ohstranslate{ps048-2}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
@@ -96,7 +97,7 @@
 \ohspsalmus{Psalmus 49 - III}{./psalmi/ps049-3-8c}{./psalmi/ps049-3-01-21.tex}
 \ohsscorenostar{./ant/ant-intelligite}
 \ohstranslate{ps049-3}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -104,21 +105,21 @@
 \ohsformatresponsorium
 \ohsannotation{Resp. 1}{II}
 \gregorioscore{./resp/resp-locuti_sunt}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
 \ohsformatresponsorium
 \ohsannotation{Resp. 2}{I}
 \gregorioscore{./resp/resp-dixerunt_impii}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
 \ohsformatresponsorium
 \ohsannotation{Resp. 3}{II}
 \gregorioscore{./resp/resp-circumdederunt}
-%\separator{4}
+%\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
