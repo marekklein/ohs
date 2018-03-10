@@ -47,14 +47,14 @@
 \ohsformatresponsorium
 \ohsannotation{Resp. 1}{VIII}
 \gregorioscore{./resp/resp-in_monte_oliveti}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
 \ohsformatresponsorium
 \ohsannotation{Resp. 2}{VIII}
 \gregorioscore{./resp/resp-tristis_est}
-%\separator{4}
+%\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
@@ -102,14 +102,14 @@
 \ohsformatresponsorium
 \ohsannotation{Resp. 4}{VIII}
 \gregorioscore{./resp/resp-amicus_meus}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
 \ohsformatresponsorium
 \ohsannotation{Resp. 5}{II}
 \gregorioscore{./resp/resp-judas_mercator}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
@@ -137,7 +137,7 @@
 \ohspsalmus{Psalmus 75}{./psalmi/ps075-8c}{./psalmi/ps075-01-21.tex}
 \ohsscorenostar{./ant/ant-terra_tremuit}
 \ohstranslate{ps075}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
@@ -157,14 +157,14 @@
 \ohsformatresponsorium
 \ohsannotation{Resp. 7}{VII}
 \gregorioscore{./resp/resp-eram_quasi_agnus}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
 \ohsformatresponsorium
 \ohsannotation{Resp. 8}{VII}
 \gregorioscore{./resp/resp-una_hora}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
