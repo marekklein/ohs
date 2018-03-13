@@ -103,7 +103,7 @@
 
 \gregorioscore{./versiculum/vers-insurrexerunt}
 %\vspace{2em}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -124,7 +124,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
-%\ohslectio{le-f6-mat6}
+\ohslectio{le-f6-mat6}
 \vspace{1em}
 %\pagebreak[4]
 \ohsresponsorium{6}{VIII}{resp-animam_meam}
@@ -168,13 +168,13 @@
 
 \gregorioscore{./versiculum/vers-locuti_sunt}
 %\vspace{2em}
-\separator{4}
+\separator{3}
 %\pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
-%\ohslectio{le-f6-mat7}
+\ohslectio{le-f6-mat7}
 \vspace{1em}
 %\pagebreak[4]
 \grechangedim{spaceabovelines}{6mm}{scalable}%
