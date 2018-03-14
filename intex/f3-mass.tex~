@@ -7,39 +7,30 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatresponsorium
-\greannotation{\color{red} \small Introitus}
-\greannotation{\small IV}
+%\greannotation{\color{red} \small Introitus}
+%\greannotation{\small IV}
 \gresetinitiallines{1}
 
-\gregorioscore{./mass/in-judica_domine}
-\separator{4}
-
+%\gregorioscore{./mass/in-judica_domine}
 %\separator{3}
-%\nadpisleft{Kyrie XVII A (Kyrie Salve)}
-%\gregorioscore{./mass/ky-kyrie-17-a}
-\ohslectio{le-f2-mass1}
-\separator{3}
 
 \ohsannotation{Grad.}{III}
-\gregorioscore{./mass/gr-exsurge_et_intende}
+\gregorioscore{./mass/gr-ego_autem}
 \separator{3}
 
-\ohslectio{le-f2-mass2}
+\ohsannotation{Of.}{I}
+\gregorioscore{./mass/of-custodi_me}
+
 \separator{3}
-
-\ohsannotation{Of.}{III}
-\gregorioscore{./mass/of-eripe_me_domine}
-
-\separator{4}
-\ohsannotation{Com.}{VII}
-\gregorioscore{./mass/co-erubescant_et_revereantur}
+\ohsannotation{Com.}{V}
+\gregorioscore{./mass/co-adversum_me}
 \ohsformatverses
-\nadpisleft{Psalmus 34}
+\nadpisleft{Psalmus 68}
 \begin{small}
-\gregorioscore{./mass/ps-34-7}
+\gregorioscore{./mass/co-verses-adversum-5}
 \end{small}
-
 \begin{comment}
+
 
 \end{comment}
 

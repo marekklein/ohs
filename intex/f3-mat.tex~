@@ -22,6 +22,7 @@
 \gregorioscore{./ant/ant-expugna}
 \ohspsalmus{Psalmus 34 - I}{./psalmi/ps034-1-4g}{./psalmi/ps034-1-21-01.tex}
 \ohsscorenostar{./ant/ant-expugna}
+\ohstranslate{ps034-1}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -29,6 +30,7 @@
 \gregorioscore{./ant/ant-restitue}
 \ohspsalmus{Psalmus 34 - II}{./psalmi/ps034-2-1g}{./psalmi/ps034-2-02-21.tex}
 \ohsscorenostar{./ant/ant-restitue}
+\ohstranslate{ps034-2}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -37,6 +39,7 @@
 \gregorioscore{./ant/ant-exsurge_domine}
 \ohspsalmus{Psalmus 34 - III}{./psalmi/ps034-3-2D}{./psalmi/ps034-3-01-11.tex}
 \ohsscorenostar{./ant/ant-exsurge_domine}
+\ohstranslate{ps034-3}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -44,6 +47,7 @@
 \gregorioscore{./ant/ant-noli_aemulari}
 \ohspsalmus{Psalmus 36 - I}{./psalmi/ps036-1-7c}{./psalmi/ps036-1-02-02.tex}
 \ohsscorenostar{./ant/ant-noli_aemulari}
+\ohstranslate{ps036-1}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -52,6 +56,7 @@
 \gregorioscore{./ant/ant-brachia_peccatorum}
 \ohspsalmus{Psalmus 36 - II}{./psalmi/ps036-2-4A}{./psalmi/ps036-2-21-31.tex}
 \ohsscorenostar{./ant/ant-brachia_peccatorum}
+\ohstranslate{ps036-2}
 \separator{5}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,6 +64,7 @@
 \gregorioscore{./ant/ant-custodi_innocentiam}
 \ohspsalmus{Psalmus 36 - III}{./psalmi/ps036-3-8G}{./psalmi/ps036-3-01-21.tex}
 \ohsscorenostar{./ant/ant-custodi_innocentiam}
+\ohstranslate{ps036-3}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -66,13 +72,15 @@
 \gregorioscore{./ant/ant-ne_in_irra_tua}
 \ohspsalmus{Psalmus 37 - I}{./psalmi/ps037-1-6F}{./psalmi/ps037-1-02-21.tex}
 \ohsscorenostar{./ant/ant-ne_in_irra_tua}
-\separator{3}
+\ohstranslate{ps037-1}
+\separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{8. Ant.}{II D}
 \gregorioscore{./ant/ant-intende}
 \ohspsalmus{Psalmus 37 - II}{./psalmi/ps037-2-2D}{./psalmi/ps037-2-01-11.tex}
 \ohsscorenostar{./ant/ant-intende}
+\ohstranslate{ps037-2}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -80,28 +88,44 @@
 \gregorioscore{./ant/ant-amove}
 \ohspsalmus{Psalmus 38}{./psalmi/ps038-8c}{./psalmi/ps038-01-21.tex}
 \ohsscorenostar{./ant/ant-amove}
-\separator{3}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\vspace{1em}
-\ohsformatresponsorium
-\ohsannotation{Resp. 1}{VII}
-\gregorioscore{./resp/resp-contumelias}
+\ohstranslate{ps038}
 \separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
+\input{./lectio/le-f3-mat1.tex}
+\ohstranslate{le-f3-mat1}
+\vspace{1em}
+\pagebreak[4]
+\ohsformatresponsorium
+\ohsannotation{Resp. 1}{VII}
+\gregorioscore{./resp/resp-contumelias}
+\ohstranslate{resp-contumelias}
+\separator{4}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace{1em}
+\input{./lectio/le-f3-mat2.tex}
+\ohstranslate{le-f3-mat2}
+\vspace{1em}
+%\pagebreak[4]
 \ohsformatresponsorium
 \grechangedim{spaceabovelines}{6mm}{scalable}%
 \ohsannotation{Resp. 2}{VIII}
 \gregorioscore{./resp/resp-deus_israel}
-%\separator{3}
+\ohstranslate{resp-deus_israel}
+\separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\vspace{1em}
+\vspace{1em}
+\input{./lectio/le-f3-mat3.tex}
+\ohstranslate{le-f3-mat3}
+\vspace{1em}
+%\pagebreak[4]
 \ohsformatresponsorium
 \ohsannotation{Resp. 3}{II}
 \gregorioscore{./resp/resp-synagoga}
+\ohstranslate{resp-synagoga}
 %\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

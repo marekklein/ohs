@@ -109,26 +109,37 @@
 \ohsformatresponsorium
 \ohsannotation{Resp. 1}{II}
 \gregorioscore{./resp/resp-locuti_sunt}
+\ohstranslate{resp-locuti_sunt}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
+\input{./lectio/le-f4-mat2.tex}
+\ohstranslate{le-f4-mat2}
+\vspace{1em}
+%\pagebreak[4]
 \ohsformatresponsorium
 \ohsannotation{Resp. 2}{I}
 \gregorioscore{./resp/resp-dixerunt_impii}
-\separator{3}
-
+\ohstranslate{resp-dixerunt_impii}
+%\separator{3}
+\pagebreak[4]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
+\input{./lectio/le-f4-mat3.tex}
+\ohstranslate{le-f4-mat3}
+\vspace{1em}
+\pagebreak[4]
 \ohsformatresponsorium
 \ohsannotation{Resp. 3}{II}
 \gregorioscore{./resp/resp-circumdederunt}
+\ohstranslate{resp-circumdederunt}
 %\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{4em}
+\vspace{2em}
 \begin{center}\greseparator{2}{20}\end{center}
 
 
