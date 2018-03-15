@@ -6,24 +6,17 @@
 \ohschapter{Ad Liturgiam Verbi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ohslectio{le-f6-mass1}
-\separator{3}
-
 \ohsformatresponsorium
 \ohsannotation{Tractus}{II}
-\gregorioscore{./mass/tr-domine_exaudi-b}
-\separator{3}
 
-\ohslectio{le-f6-mass2}
-\separator{3}
+\gregorioscore{./mass/tr-domine_exaudi-b}
+
+\separator{4}
 
 \ohsannotation{Grad.}{V}
 \gregorioscore{./mass/gr-christus_factus}
-\separator{3}
 
-\ohslectio{le-f6-mass3}
-\separator{3}
-
+\separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \nadpisb{Adoratio Sanctæ Crucis}
 \nadpisb{Invitatio in ostendenda sancta cruce}
