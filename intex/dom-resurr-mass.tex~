@@ -11,32 +11,45 @@
 \greannotation{\small IV}
 \gresetinitiallines{1}
 
-\gregorioscore{./mass/in-judica_domine}
-\separator{4}
-
-%\separator{3}
-%\nadpisleft{Kyrie XVII A (Kyrie Salve)}
-%\gregorioscore{./mass/ky-kyrie-17-a}
-\ohslectio{le-f2-mass1}
+\gregorioscore{./mass/in-resurrexi}
 \separator{3}
 
-\ohsannotation{Grad.}{III}
-\gregorioscore{./mass/gr-exsurge_et_intende}
+\ohslectio{le-resurr-mass1}
 \separator{3}
 
-\ohslectio{le-f2-mass2}
+\greannotation{\color{red} \small Graduale}
+\greannotation{\small II}
+\gresetinitiallines{1}
+\gregorioscore{./mass/gr-haec_dies__confitemini}
 \separator{3}
 
-\ohsannotation{Of.}{III}
-\gregorioscore{./mass/of-eripe_me_domine}
+\greannotation{\color{red} \small Alleluia}
+\greannotation{\small VII}
+\gresetinitiallines{1}
 
-\separator{4}
-\ohsannotation{Com.}{VII}
-\gregorioscore{./mass/co-erubescant_et_revereantur}
+\gregorioscore{./mass/al-pascha_nostrum}
+
+\separator{3}
+
+\greannotation{\color{red} \small Sequentia}
+\greannotation{\small I}
+\gregorioscore{./mass/se-victimae_paschali}
+
+\separator{3}
+
+\greannotation{\color{red} \small Offertorium}
+\greannotation{\small IV}
+\gregorioscore{./mass/of-terra_tremuit}
+
+\separator{3}
+
+\greannotation{\color{red} \small Communio}
+\greannotation{\small VI}
+\gregorioscore{./mass/co-pascha_nostrum}
 \ohsformatverses
-\nadpisleft{Psalmus 34}
+\nadpisleft{Psalmus 117}
 \begin{small}
-\gregorioscore{./mass/ps-34-7}
+\gregorioscore{./mass/co-verses-pascha_nostrum}
 \end{small}
 
 \begin{comment}
