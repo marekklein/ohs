@@ -6,16 +6,20 @@
 \ohschapter{Ad Missam}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\nadpisleft{Introitus} Nos autem gloriari (p.~\pageref{in-nos_autem})
 \ohsformatresponsorium
 %\greannotation{\color{red} \small Introitus}
 %\greannotation{\small IV}
 \gresetinitiallines{1}
 
-%\gregorioscore{./mass/in-judica_domine}
-%\separator{3}
+\ohslectio{le-f3-mass1}
+\separator{3}
 
 \ohsannotation{Grad.}{III}
 \gregorioscore{./mass/gr-ego_autem}
+\separator{3}
+
+\ohslectio{le-f3-mass2}
 \separator{3}
 
 \ohsannotation{Of.}{I}
