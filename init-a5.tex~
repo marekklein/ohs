@@ -52,6 +52,7 @@
 pdftitle={Officium Hebdomadæ Sanctæ},
 %pdfsubject={Your PDF subject},
 pdfauthor={Marek Klein - marek@gregoriana.sk},
+pdfpagemode=UseOutlines,  
 %pdfkeywords={Your PDF keywords}
 }
 \usepackage{pifont}

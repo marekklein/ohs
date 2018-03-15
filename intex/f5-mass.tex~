@@ -6,6 +6,7 @@
 \ohschapter{Ad Missam}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{in-nos_autem}
 \ohsformatresponsorium
 \greannotation{\color{red} \small Introitus}
 \greannotation{\small IV}
@@ -28,13 +29,22 @@
 \gregorioscore{./mass/ky-gloria_ambrosian}
 
 \separator{4}
+
+\ohslectio{le-f5-mass1}
+\separator{3}
+
 \ohsannotation{Grad.}{VII}
 \gregorioscore{./mass/gr-oculi_omnium}
-
 \separator{4}
+
+\ohslectio{le-f5-mass2}
+\separator{3}
+
 \ohsannotation{Grad.}{V}
 \gregorioscore{./mass/gr-christus_factus}
 
+\ohslectio{le-f5-mass3}
+\separator{3}
 
 \separator{4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
