@@ -13,8 +13,9 @@
 \gresetinitiallines{1}
 
 \gregorioscore{./mass/in-nos_autem}
-
 \separator{3}
+
+\begin{comment}
 \nadpisleft{Kyrie XVII A (Kyrie Salve)}
 \gregorioscore{./mass/ky-kyrie-17-a}
 
@@ -27,8 +28,9 @@
 \separator{4}
 \nadpisleft{Gloria (More Ambrosiano)}
 \gregorioscore{./mass/ky-gloria_ambrosian}
-
 \separator{4}
+\end{comment}
+
 
 \ohslectio{le-f5-mass1}
 \separator{3}
@@ -38,22 +40,22 @@
 \separator{4}
 
 \ohslectio{le-f5-mass2}
-\separator{3}
+\separator{4}
 
 \ohsannotation{Grad.}{V}
 \gregorioscore{./mass/gr-christus_factus}
-
-\ohslectio{le-f5-mass3}
 \separator{3}
 
-\separator{4}
+\ohslectio{le-f5-mass3}
+
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \nadpisb{Ad Lotionem Pedum}
 \ohsformatantiphona
 \ohsannotation{Ant.}{III}
 \gregorioscore{./mass/an-mandatum_novum}
 \ohspsalmus{Psalmus 118-I,II}{./mass/ps-118-3g}{./psalmi/ps118-1-2-02-21.tex}
-\separator{4}
+\separator{3}
 
 \ohsformatresponsorium
 \ohsannotation{Ant.}{V}
@@ -66,12 +68,13 @@
 \vspace{1em}
 \ohsannotation{Ant.}{II}
 \gregorioscore{./mass/an-dominus_jesus}
-\separator{4}
+\separator{3}
 
 \ohsannotation{Offert.}{VI}
 \gregorioscore{./mass/of-ubi_caritas_est_vera}
 \separator{4}
 
+\begin{comment}
 \nadpisleft{Sanctus XVII}
 \greannotation{V}
 \gregorioscore{./mass/ky-sanctus_17}
@@ -80,7 +83,8 @@
 \nadpisleft{Agnus XVII}
 \greannotation{V}
 \gregorioscore{./mass/ky-agnus_17}
-\separator{4}
+\separator{3}
+\end{comment}
 
 \ohsannotation{Comm.}{VIII}
 \gregorioscore{./mass/co-hoc_corpus}
@@ -89,7 +93,7 @@
 \begin{small}
 \gregorioscore{./mass/co-verses-credidi-8g}
 \end{small}
-\separator{4}
+\separator{3}
 
 \ohsformathymnus
 \grechangedim{spaceabovelines}{6mm}{scalable}%
