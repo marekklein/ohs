@@ -9,20 +9,18 @@
 \ohslectio{le-f6-mass1}
 \separator{3}
 
-\ohsformatresponsorium
-\ohsannotation{Tractus}{II}
-\gregorioscore{./mass/tr-domine_exaudi-b}
+\ohsproprium{Tractus}{II}{tr-domine_exaudi-b}
 \separator{3}
 
 \ohslectio{le-f6-mass2}
 \separator{3}
 
-\ohsannotation{Grad.}{V}
-\gregorioscore{./mass/gr-christus_factus}
+\ohsproprium{Graduale}{V}{gr-christus_factus}
+
 \separator{3}
 
 \ohslectio{le-f6-mass3}
-\separator{3}
+\separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \nadpisb{Adoratio Sanctæ Crucis}
@@ -42,6 +40,8 @@
 	\gregorioscore{./ant/ant-ecce_lignum_crucis--omnes}
 \end{minipage}%
 %\end{array}
+\vspace{1em}
+\ohstranslate{ant-ecce_lignum_crucis}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \nadpisb{Cantus in adoratione s. crucis peragendi}
@@ -49,6 +49,8 @@
 \ohsannotation{Ant.}{IV}
 \gregorioscore{./mass/ant-crucem_tuam}
 \textit{Et repetitur antiphona} Crucem tuam.
+
+\ohstranslate{ant-crucem_tuam}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \nadpisb{Improperia}
@@ -120,6 +122,8 @@
 
 \vspace{1em}
 \gregorioscore{./mass/im-ego_te_exaltavi}
+
+\separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatresponsorium
