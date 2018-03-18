@@ -7,7 +7,6 @@
 \input{./intex/triduum-ter.tex}
 \input{./intex/triduum-sex.tex}
 \input{./intex/triduum-non.tex}
-\input{./completorium-triduum.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
 
