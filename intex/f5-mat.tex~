@@ -147,7 +147,7 @@
 \ohspsalmus{Psalmus 76}{./psalmi/ps076-7a}{./psalmi/ps076-02-02.tex}
 \ohsscorenostar{./ant/ant-in_die_tribulationis}
 \ohstranslate{ps076}
-\separator{3}
+\separator{4}
 
 \gregorioscore{./versiculum/vers-exsurge_domine}
 \vspace{2em}
@@ -157,7 +157,7 @@
 %\vspace{1em}
 \ohslectio{le-f5-mat7}
 \vspace{1em}
-%\pagebreak[4]
+\pagebreak[4]
 \ohsresponsorium{7}{VII}{resp-eram_quasi_agnus}
 \separator{3}
 
@@ -165,7 +165,7 @@
 %\vspace{1em}
 \ohslectio{le-f5-mat8}
 \vspace{1em}
-%\pagebreak[4]
+\pagebreak[4]
 \ohsresponsorium{8}{VII}{resp-una_hora}
 \separator{3}
 
@@ -173,7 +173,7 @@
 %\vspace{1em}
 \ohslectio{le-f5-mat9}
 \vspace{1em}
-%\pagebreak[4]
+\pagebreak[4]
 \ohsresponsorium{9}{I}{resp-seniores}
 %\separator{3}
 

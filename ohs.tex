@@ -1,4 +1,38 @@
 \input{init-a5.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \feria {A}
+\def \feriashort {b}
+\def \ohschaptername {c}
+\let\feriashort\relax
+\let\feria\relax
+\vspace*{\stretch{3}}
+\begin{center}\huge{\textbf{\textsc{Officium\linebreak Hebdomadæ\linebreak Sanctæ}}}\end{center}
+\vspace*{\stretch{4}}
+\thispagestyle{empty}
+\newpage{}
+%\newpage\null\thispagestyle{empty}\newpage
+
+%second page
+\clearpage
+\vspace*{\stretch{4}}
+\begin{center}
+%\begin{minipage}{.6\textwidth}
+Podľa materiálov \textbf{Chœur grégorien de Paris}, 
+\linebreak tak ako sa každoročne používajú počas svätého týždňa
+\linebreak (Fontfroide, Granville, Roudnice nad Labem)
+\linebreak zostavil v roku 2018 Marek Klein (www.gregoriana.sk)
+%\end{minipage}
+\end{center}
+%\vspace{\stretch{1}}
+\thispagestyle{empty}
+\clearpage
+\begin{comment}
+\end{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \def \feria {Feria secunda Hebdomadæ Sanctæ}
 \def \feriashort {Feria II}
 \input{./intex/f2-mat.tex}
@@ -29,12 +63,6 @@
 \input{./intex/f4-non.tex}
 \input{./intex/f4-vesp.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\def \feria {In Ultimo Triduo}
-\def \feriashort {In Triduo }
-\input{./intex/triduum-ter.tex}
-\input{./intex/triduum-sex.tex}
-\input{./intex/triduum-non.tex}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def \feria {Feria quinta in Cena Domini}
 \def \feriashort {Feria V}
 \input{./intex/f5-mat.tex}
@@ -61,6 +89,26 @@
 \input{./intex/dom-resurr-mass.tex}
 %\input{./intex/dom-resurr-non.tex}
 \input{./intex/dom-resurr-vesp.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \feria {In Ultimo Triduo}
+\def \feriashort {In Triduo }
+\input{./intex/triduum-ter.tex}
+\input{./intex/triduum-sex.tex}
+\input{./intex/triduum-non.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \feria {In Quadragesima}
+\def \feriashort {In Quadragesima}
+\input{./completorium.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \feria {In Tempore Paschali}
+\def \feriashort {TP}
+\input{./completorium-tp.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \feria {Kyriale}
+\def \feriashort {Kyriale}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{Kyriale}
+\input{./intex/kyriale.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
 

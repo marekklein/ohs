@@ -17,7 +17,7 @@
 %\vspace{1em}
 \gregorioscore{./hymni/hy-pange_lingua}
 \ohstranslate{hy-pange_lingua}
-\separator{4}
+\separator{3}
 %\vspace{1em}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -36,7 +36,7 @@
 \ohspsalmus{Psalmus 14}{./psalmi/ps014-4E}{./psalmi/ps014-21-31.tex}
 \ohsscorenostar{./ant/ant-qui_operatur}
 \ohstranslate{ps014}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace{1em}
@@ -54,7 +54,7 @@
 \ohspsalmus{Psalmus 17 - I}{./psalmi/ps017-1-6F}{./psalmi/ps017-1-02-21.tex}
 \ohsscorenostar{./ant/ant-diligam_te}
 \ohstranslate{ps017-1}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace{1em}
@@ -72,7 +72,7 @@
 \ohspsalmus{Psalmus 17 - III}{./psalmi/ps017-3-7c2}{./psalmi/ps017-3-02-02.tex}
 \ohsscorenostar{./ant/ant-vivit_dominus}
 \ohstranslate{ps017-3}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace{1em}
@@ -89,7 +89,7 @@
 \ohspsalmus{Psalmus 20}{./psalmi/ps020-8G}{./psalmi/ps020-01-21.tex}
 \ohsscorenostar{./ant/ant-domine_in_virtute}
 \ohstranslate{ps020}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace{1em}
@@ -128,10 +128,11 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
-\pagebreak[2]
+%\pagebreak[2]
 \input{./lectio/le-f2-mat3.tex}
 \ohstranslate{le-f2-mat3}
-\vspace{1em}
+%\vspace{1em}
+\pagebreak[4]
 \ohsformatresponsorium
 \ohsannotation{Resp. 3}{III}
 \gregorioscore{./resp/resp-insurrexerunt}

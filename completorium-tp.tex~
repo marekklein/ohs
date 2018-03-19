@@ -44,9 +44,12 @@ Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli A
 \ohsannotation{Ant.}{VIII G}
 \gregorioscore{./ant/ant-alleluia}
 \ohspsalmus{Psalmus 4}{./psalmi/ps004-8G}{./psalmi/ps004-01-21.tex}
+\ohstranslate{ps004}
 \ohspsalmus{Psalmus 90}{./psalmi/ps090-8G}{./psalmi/ps090-01-21.tex}
+\ohstranslate{ps090}
 \ohspsalmus{Psalmus 133}{./psalmi/ps133-8G}{./psalmi/ps133-01-21.tex}
 \ohsscorenostar{./ant/ant-alleluia}
+\ohstranslate{ps133}
 \separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
