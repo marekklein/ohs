@@ -17,7 +17,7 @@
 %\vspace{1em}
 \gregorioscore{./hymni/hy-pange_lingua}
 \ohstranslate{hy-pange_lingua}
-\separator{3}
+\separator{4}
 %\vspace{1em}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -98,14 +98,14 @@
 \ohspsalmus{Psalmus 29}{./psalmi/ps029-8G}{./psalmi/ps029-01-21.tex}
 \ohsscorenostar{./ant/ant-exaltabo_te}
 \ohstranslate{ps029}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
 %\pagebreak[2]
 \input{./lectio/le-f2-mat1.tex}
 \ohstranslate{le-f2-mat1}
 \vspace{1em}
-\pagebreak[4]
+\pagebreak[3]
 \ohsformatresponsorium
 \ohsannotation{Resp. 1}{I}
 \gregorioscore{./resp/resp-viri_impii}
@@ -131,8 +131,8 @@
 %\pagebreak[2]
 \input{./lectio/le-f2-mat3.tex}
 \ohstranslate{le-f2-mat3}
-%\vspace{1em}
-\pagebreak[4]
+\vspace{1em}
+%\pagebreak[4]
 \ohsformatresponsorium
 \ohsannotation{Resp. 3}{III}
 \gregorioscore{./resp/resp-insurrexerunt}

@@ -67,6 +67,7 @@
 \chapter*{{#1}}%
 \thispagestyle{fancy}%
 \def \ohschaptername {{#1}}
+\grechangedim{spacelinestext}{6 mm}{scalable}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

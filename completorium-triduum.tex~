@@ -21,20 +21,16 @@ Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli A
 \vspace{2em}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ohsformatantiphona
-\ohsannotation{Ant.}{III a}
-\gregorioscore{./ant/ant-salva_nos-tp}
-\ohspsalmus{Canticum Simeonis (Lc. 2, 29-32)}{./psalmi/csimeon-3a}{./psalmi/csimeon-02-11.tex}
-\ohsscorenostar{./ant/ant-salva_nos-tp}
-\separator{3}
-
-\textbf{\Vbar.} Kyrie eléison. \textbf{\Rbar.} Christe eléison. \textbf{\Vbar.} Kyrie eléison.
 
 \pagebreak[3]
 \ohspsalmus{Psalmus 4}{./psalmi/ps004-in_directum}{./psalmi/ps004-21-00-nogp.tex}
 \ohstranslate{ps004}
-\ohspsalmus{Psalmus 90}{./psalmi/ps090-in_directum{./psalmi/ps090-21-00-nogp.tex}
-\ohspsalmus{Psalmus 133}{./psalmi/ps133-8G}{./psalmi/ps133-01-21.tex}
+\ohspsalmus{Psalmus 90}{./psalmi/ps090-in_directum}{./psalmi/ps090-21-00-nogp.tex}
+\ohstranslate{ps090}
+\ohspsalmus{Psalmus 133}{./psalmi/ps133-in_directum}{./psalmi/ps133-21-00-nogp.tex}
+\ohstranslate{ps133}
+\ohspsalmus{Canticum Simeonis (Lc. 2, 29-32)}{./psalmi/csimeon-in_directum}{./psalmi/csimeon-21-00-nogp.tex}
+\ohstranslate{csimeon}
 
 %\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
