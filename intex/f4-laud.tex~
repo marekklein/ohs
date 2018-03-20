@@ -13,7 +13,7 @@
 \ohspsalmus{Psalmus 50}{./psalmi/ps050-8G}{./psalmi/ps050-01-21.tex}
 \ohsscorenostar{./ant/ant-libera_me}
 \ohstranslate{ps050}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{2. Ant.}{VIII a}
@@ -21,21 +21,21 @@
 \ohspsalmus{Psalmus 63}{./psalmi/ps063-8a}{./psalmi/ps063-01-21.tex}
 \ohsscorenostar{./ant/ant-contumelias}
 \ohstranslate{ps063}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{3. Ant.}{II D}
 \gregorioscore{./ant/ant-ipsi_vero}
 \ohspsalmus{Psalmus 64}{./psalmi/ps064-2D}{./psalmi/ps064-01-11.tex}
 \ohsscorenostar{./ant/ant-ipsi_vero}
 \ohstranslate{ps064}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{4. Ant.}{VII a}
 \gregorioscore{./ant/ant-omnes_inimici_mei}
 \ohspsalmus{Canticum Annæ (1. Reg. 2, 1-10)}{./psalmi/cannae-7a}{./psalmi/cannae-02-02.tex}
 \ohsscorenostar{./ant/ant-omnes_inimici_mei}
 \ohstranslate{cannae}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{5. Ant.}{I g2}
 \gregorioscore{./ant/ant-alliga_domine}
@@ -59,15 +59,16 @@
 
 \ohsformathymnus
 
-\pagebreak[4]
+\pagebreak[3]
 \ohsannotation{Hymn.}{I}
 \gregorioscore{./hymni/hy-hic_acetum}
+\ohstranslate{hy-hic_acetum}
 
 \vspace{2em}
 
 \input{./versiculum/vers-eripe-inimicis.tex}
 
-\separator{4}
+\separator{3}
 %\vspace{1em}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
@@ -79,8 +80,8 @@
 %\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\vspace{3em}
-\pagebreak[4]
+\vspace{1em}
+\pagebreak[3]
 
 \oratio{./oratio/or-praesta_quaesumus.tex}
 

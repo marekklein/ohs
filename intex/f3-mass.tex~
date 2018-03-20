@@ -15,28 +15,17 @@
 \ohslectio{le-f3-mass1}
 \separator{3}
 
-\ohsannotation{Grad.}{III}
-\gregorioscore{./mass/gr-ego_autem}
+\ohsproprium{Graduale}{III}{gr-ego_autem}
 \separator{3}
 
 \ohslectio{le-f3-mass2}
 \separator{3}
 
-\ohsannotation{Of.}{I}
-\gregorioscore{./mass/of-custodi_me}
-
+\ohsproprium{Offertorium}{I}{of-custodi_me}
 \separator{3}
-\ohsannotation{Com.}{V}
-\gregorioscore{./mass/co-adversum_me}
-\ohsformatverses
-\nadpisleft{Psalmus 68}
-\begin{small}
-\gregorioscore{./mass/co-verses-adversum-5}
-\end{small}
-\begin{comment}
 
-
-\end{comment}
+\ohsproprium{Communio}{V}{co-adversum_me}
+\ohsverses{Psalmus 68}{co-verses-adversum-5}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}

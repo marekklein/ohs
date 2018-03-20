@@ -12,7 +12,7 @@
 \ohspsalmus{Psalmus 50}{./psalmi/ps050-7c2}{./psalmi/ps050-02-02.tex}
 \ohsscorenostar{./ant/ant-vide_domine}
 \ohstranslate{ps050}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{2. Ant.}{VII d}
@@ -20,21 +20,21 @@
 \ohspsalmus{Psalmus 42}{./psalmi/ps042-7d}{./psalmi/ps042-02-02.tex}
 \ohsscorenostar{./ant/ant-discerne_causam}
 \ohstranslate{ps042}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{3. Ant.}{VIII G}
 \gregorioscore{./ant/ant-dum_tribularer}
 \ohspsalmus{Psalmus 56}{./psalmi/ps056-7a}{./psalmi/ps056-02-02.tex}
 \ohsscorenostar{./ant/ant-dum_tribularer}
 \ohstranslate{ps056}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{4. Ant.}{III a}
 \gregorioscore{./ant/ant-domine_vim_patior}
 \ohspsalmus{Canticum Ezechiæ}{./psalmi/cezech-3a}{./psalmi/cezech-02-11.tex}
 \ohsscorenostar{./ant/ant-domine_vim_patior}
 \ohstranslate{cezech}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{5. Ant.}{VIII G}
 \gregorioscore{./ant/ant-dixerunt_impii}
@@ -59,10 +59,12 @@
 \ohsformathymnus
 \ohsannotation{Hymn.}{I}
 \gregorioscore{./hymni/hy-hic_acetum}
+\ohstranslate{hy-hic_acetum}
 
 \vspace{2em}
 \input{./versiculum/vers-eripe-inimicis.tex}
-\separator{4}
+%\separator{3}
+\pagebreak[3]
 %\vspace{1em}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona

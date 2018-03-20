@@ -13,7 +13,7 @@
 \ohspsalmus{Psalmus 134}{./psalmi/ps134-3g}{./psalmi/ps134-02-02.tex}
 \ohsscorenostar{./ant/ant-omnia}
 \ohstranslate{ps134}
-\separator{3}
+\separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{2. Ant.}{III g}
@@ -21,14 +21,14 @@
 \ohspsalmus{Psalmus 135}{./psalmi/ps135-3g}{./psalmi/ps135-02-02.tex}
 \ohsscorenostar{./ant/ant-quoniam}
 \ohstranslate{ps135}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{3. Ant.}{VIII G}
 \gregorioscore{./ant/ant-hymnum}
 \ohspsalmus{Psalmus 136}{./psalmi/ps136-8G}{./psalmi/ps136-01-21.tex}
 \ohsscorenostar{./ant/ant-hymnum}
 \ohstranslate{ps136}
-\separator{4}
+\separator{3}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsannotation{4. Ant.}{I a}
 \gregorioscore{./ant/ant-in_conspectu}
@@ -56,7 +56,7 @@
 
 \input{./versiculum/vers-eripe-homine.tex}
 
-\separator{4}
+\separator{3}
 %\vspace{1em}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona

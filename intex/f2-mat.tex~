@@ -7,7 +7,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \label{inv-christum-tentatum}
-\gregorioscore{./ant/ant-inv-christum-tentatum}
+%\gregorioscore{./ant/ant-inv-christum-tentatum}
 \nadpisleft{Psalmus 94}
 \grechangedim{annotationraise}{-4 mm}{scalable}
 \greannotation{\small IV*}

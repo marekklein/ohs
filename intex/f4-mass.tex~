@@ -6,39 +6,24 @@
 \ohschapter{Ad Missam}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\ohsformatresponsorium
-\greannotation{\color{red} \small Introitus}
-\greannotation{\small III}
-\gresetinitiallines{1}
 
-\gregorioscore{./mass/in-in_nomine_domini}
+\ohsproprium{Introitus}{III}{in-in_nomine_domini}
 \separator{3}
 
 \ohslectio{le-f4-mass1}
 \separator{3}
 
-\ohsannotation{Graduale}{II}
-\gregorioscore{./mass/gr-ne_avertas}
+\ohsproprium{Graduale}{II}{gr-ne_avertas}
 \separator{3}
 
 \ohslectio{le-f4-mass2}
 \separator{3}
 
-\ohsannotation{Offertorium}{I}
-\gregorioscore{./mass/of-domine_exaudi_ne_avertas}
-
+\ohsproprium{Offertorium}{I}{of-domine_exaudi_ne_avertas}
 \separator{3}
-\ohsannotation{Communio}{II}
-\gregorioscore{./mass/co-potum_meum}
-\ohsformatverses
-\nadpisleft{Psalmus 101}
-\begin{small}
-\gregorioscore{./mass/co-verses-potum-2}
-\end{small}
 
-\begin{comment}
-
-\end{comment}
+\ohsproprium{Communio}{II}{co-potum_meum}
+\ohsverses{Psalmus 101}{co-verses-potum-2}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}

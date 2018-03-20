@@ -7,12 +7,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \label{in-nos_autem}
-\ohsformatresponsorium
-\greannotation{\color{red} \small Introitus}
-\greannotation{\small IV}
-\gresetinitiallines{1}
-
-\gregorioscore{./mass/in-nos_autem}
+\ohsproprium{Introitus}{IV}{in-nos_autem}
 \separator{3}
 
 \begin{comment}
@@ -31,19 +26,17 @@
 \separator{4}
 \end{comment}
 
-
 \ohslectio{le-f5-mass1}
-\separator{3}
+%\separator{3}
+\pagebreak
 
-\ohsannotation{Grad.}{VII}
-\gregorioscore{./mass/gr-oculi_omnium}
+\ohsproprium{Graduale}{VII}{gr-oculi_omnium}
 \separator{4}
 
 \ohslectio{le-f5-mass2}
 \separator{4}
 
-\ohsannotation{Grad.}{V}
-\gregorioscore{./mass/gr-christus_factus}
+\ohsproprium{Graduale}{V}{gr-christus_factus}
 \separator{3}
 
 \ohslectio{le-f5-mass3}
@@ -54,12 +47,17 @@
 \ohsformatantiphona
 \ohsannotation{Ant.}{III}
 \gregorioscore{./mass/an-mandatum_novum}
+\ohstranslate{an-mandatum_novum}
 \ohspsalmus{Psalmus 118-I,II}{./mass/ps-118-3g}{./psalmi/ps118-1-2-02-21.tex}
-\separator{3}
+\ohstranslate{ps118-1-2}
+
+%\separator{3}
+\pagebreak
 
 \ohsformatresponsorium
 \ohsannotation{Ant.}{V}
 \gregorioscore{./mass/an-domine_tu_mihi}
+\ohstranslate{an-domine_tu_mihi}
 
 \nadpisleft{Melodia altera}
 \ohsannotation{Ant.}{V}
@@ -68,10 +66,12 @@
 \vspace{1em}
 \ohsannotation{Ant.}{II}
 \gregorioscore{./mass/an-dominus_jesus}
+\ohstranslate{an-dominus_jesus}
 \separator{3}
 
 \ohsannotation{Offert.}{VI}
 \gregorioscore{./mass/of-ubi_caritas_est_vera}
+\ohstranslate{of-ubi_caritas_est_vera}
 \separator{4}
 
 \begin{comment}
@@ -86,27 +86,27 @@
 \separator{3}
 \end{comment}
 
-\ohsannotation{Comm.}{VIII}
-\gregorioscore{./mass/co-hoc_corpus}
-\ohsformatverses
-\nadpisleft{Psalmus 115}
-\begin{small}
-\gregorioscore{./mass/co-verses-credidi-8g}
-\end{small}
+\ohsproprium{Communio}{VIII}{co-hoc_corpus}
+\ohsverses{Psalmus 115}{co-verses-credidi-8g}
+
 \separator{3}
 
 \ohsformathymnus
 \grechangedim{spaceabovelines}{6mm}{scalable}%
-
 \ohsannotation{Hymn.}{III}
 \gregorioscore{./mass/hy-pange_lingua_corporis}
+\ohstranslate{hy-pange_lingua_corporis}
 
 \vspace{1em}
 \ohsannotation{Hymn.}{III}
 \gregorioscore{./mass/hy-tantum_ergo}
+\ohstranslate{hy-tantum_ergo}
+
+\separator{3}
 
 \ohsformatverses
 \ohspsalmus{Psalmus 21}{./psalmi/ps021-in_directum}{./psalmi/ps021-21-00.tex}
+\ohstranslate{ps021}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}

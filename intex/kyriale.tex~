@@ -4,8 +4,8 @@
 \grechangecount{endofwordpenalty}{-2000}
 
 \label{Kyriale}
-\nadpisb{Missa I}
-\def \ohschaptername {I}
+\ohschapter{Missa I}
+%\def \ohschaptername {I}
 
 \nadpisleft{Kyrie I}
 \gregorioscore{./mass/ky-kyrie_i}
@@ -19,7 +19,7 @@
 \nadpisleft{Agnus I}
 \gregorioscore{./mass/ky-agnus_i}
 
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \nadpisb{Missa IV}
@@ -33,7 +33,7 @@
 \nadpisleft{Gloria IV}
 \gregorioscore{./mass/ky-gloria_iv}
 
-\pagebreak
+%\pagebreak
 \nadpisleft{Sanctus IV}
 \gregorioscore{./mass/ky-sanctus_iv}
 
@@ -51,20 +51,19 @@
 \nadpisleft{Kyrie XVII B}
 \gregorioscore{./mass/ky-kyrie-17-b}
 
+\pagebreak
 \nadpisleft{Kyrie XVII C}
 \gregorioscore{./mass/ky-kyrie-17-c}
-
-%\separator{4}
-%\separator{4}
 
 \nadpisleft{Sanctus XVII}
 \greannotation{V}
 \gregorioscore{./mass/ky-sanctus_17}
 
+\pagebreak
 \nadpisleft{Agnus XVII}
 \greannotation{V}
 \gregorioscore{./mass/ky-agnus_17}
-\separator{3}
+\separator{4}
 
 \nadpisb{Missa XVIII}
 \def \ohschaptername {XVIII}
@@ -86,6 +85,7 @@
 \nadpisleft{Gloria (More Ambrosiano)}
 \gregorioscore{./mass/ky-gloria_ambrosian}
 
+\pagebreak
 \def \ohschaptername {Credo III}
 \nadpisleft{Credo III}
 \gregorioscore{./mass/ky-credo_iii}
