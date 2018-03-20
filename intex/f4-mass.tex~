@@ -8,10 +8,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \ohsproprium{Introitus}{III}{in-in_nomine_domini}
-\separator{3}
+\separator{4}
 
 \ohslectio{le-f4-mass1}
-\separator{3}
+%\separator{3}
+\pagebreak
 
 \ohsproprium{Graduale}{II}{gr-ne_avertas}
 \separator{3}
@@ -19,6 +20,7 @@
 \ohslectio{le-f4-mass2}
 \separator{3}
 
+\grechangedim{spacelinestext}{5 mm}{scalable}
 \ohsproprium{Offertorium}{I}{of-domine_exaudi_ne_avertas}
 \separator{3}
 

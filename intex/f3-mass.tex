@@ -6,15 +6,24 @@
 \ohschapter{Ad Missam}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\nadpisleft{Introitus} Nos autem gloriari (p.~\pageref{in-nos_autem})
-\ohsformatresponsorium
-%\greannotation{\color{red} \small Introitus}
-%\greannotation{\small IV}
-\gresetinitiallines{1}
+
+\ifx\ohsprintall\undefined
+	\nadpisleft{Introitus} Nos autem gloriari (p.~\pageref{in-nos_autem})
+\else
+	\ohsproprium{Introitus}{IV}{in-nos_autem}
+	\separator{3}
+	
+	\nadpisleft{Kyrie XVIII}
+	\grechangedim{annotationraise}{-2 mm}{scalable}
+	\gregorioscore{./mass/ky-kyrie_xviii}
+	\vspace{1em}
+	%\separator{3}
+\fi
+
 
 \ohslectio{le-f3-mass1}
-%\separator{3}
-\pagebreak
+\separator{4}
+%\pagebreak
 
 \ohsproprium{Graduale}{III}{gr-ego_autem}
 \separator{3}
@@ -23,7 +32,22 @@
 \separator{3}
 
 \ohsproprium{Offertorium}{I}{of-custodi_me}
-\separator{3}
+
+\ifx\ohsprintall\undefined
+	\separator{3}
+\else
+	\separator{3}
+	\nadpisleft{Sanctus XVIII}
+	\grechangedim{annotationraise}{-2 mm}{scalable}
+	\greannotation{V}
+	\gregorioscore{./mass/ky-sanctus_xviii}
+	\vspace{1em}
+	
+	\nadpisleft{Agnus XVIII}
+	\greannotation{V}
+	\gregorioscore{./mass/ky-agnus_xviii}
+	\separator{3}
+\fi
 
 \ohsproprium{Communio}{V}{co-adversum_me}
 \ohsverses{Psalmus 68}{co-verses-adversum-5}

@@ -47,15 +47,19 @@
 \usepackage{fancyheadings}
 \usepackage{lastpage}
 \pagestyle{fancy}
-\usepackage[hidelinks]{hyperref}
-\hypersetup{
-pdftitle={Officium Hebdomadæ Sanctæ},
-%pdfsubject={Your PDF subject},
-pdfauthor={Marek Klein - marek@gregoriana.sk},
-pdfpagemode=UseOutlines,  
-%pdfkeywords={Your PDF keywords}
-}
 \usepackage{pifont}
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+\hypersetup{
+	pdftitle={Officium Hebdomadæ Sanctæ},
+	%pdfsubject={Your PDF subject},
+	pdfauthor={Marek Klein - marek@gregoriana.sk},
+	bookmarksnumbered=true,     
+    bookmarksopen=true,         
+    bookmarksopenlevel=1,      
+    pdfpagemode=UseOutlines,  
+    %pdfkeywords={Your PDF keywords}
+}
 % here we begin the document
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -96,7 +100,7 @@ pdfpagemode=UseOutlines,
 \grechangedim{annotationseparation}{1 mm}{scalable}%
 \grechangestaffsize{17}%
 \gresetnabcfont{gregall}{10}
-\grechangedim{spaceabovelines}{8mm}{scalable}%
+\grechangedim{spaceabovelines}{6mm}{scalable}%
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

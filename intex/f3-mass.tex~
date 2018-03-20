@@ -13,7 +13,8 @@
 \gresetinitiallines{1}
 
 \ohslectio{le-f3-mass1}
-\separator{3}
+%\separator{3}
+\pagebreak
 
 \ohsproprium{Graduale}{III}{gr-ego_autem}
 \separator{3}

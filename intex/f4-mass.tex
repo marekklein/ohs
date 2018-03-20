@@ -8,11 +8,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \ohsproprium{Introitus}{III}{in-in_nomine_domini}
-\separator{4}
+%\separator{4}
+
+\ifx\ohsprintall\undefined
+	\separator{4}
+\else
+	\separator{4}
+	\nadpisleft{Kyrie XVIII}
+	\grechangedim{annotationraise}{-2 mm}{scalable}
+	\gregorioscore{./mass/ky-kyrie_xviii}
+	\vspace{1em}
+	%\separator{3}
+\fi
 
 \ohslectio{le-f4-mass1}
-%\separator{3}
-\pagebreak
+\separator{3}
+%\pagebreak
 
 \ohsproprium{Graduale}{II}{gr-ne_avertas}
 \separator{3}
@@ -22,7 +33,22 @@
 
 \grechangedim{spacelinestext}{5 mm}{scalable}
 \ohsproprium{Offertorium}{I}{of-domine_exaudi_ne_avertas}
-\separator{3}
+
+\ifx\ohsprintall\undefined
+	\separator{3}
+\else
+	\separator{4}
+	\nadpisleft{Sanctus XVIII}
+	\grechangedim{annotationraise}{-2 mm}{scalable}
+	\greannotation{V}
+	\gregorioscore{./mass/ky-sanctus_xviii}
+	\vspace{1em}
+	
+	\nadpisleft{Agnus XVIII}
+	\greannotation{V}
+	\gregorioscore{./mass/ky-agnus_xviii}
+	\separator{3}
+\fi
 
 \ohsproprium{Communio}{II}{co-potum_meum}
 \ohsverses{Psalmus 101}{co-verses-potum-2}

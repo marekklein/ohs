@@ -72,11 +72,10 @@
 \grechangedim{spacelinestext}{8mm}{scalable}
 \ohsscorenostar{./ant/ant-clarifica_me}
 \ohstranslate{benedictus}
-%\separator{3}
+\separator{4}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{3em}
-\pagebreak[3]
 
 \oratio{./oratio/or-da_quaesumus.tex}
 
