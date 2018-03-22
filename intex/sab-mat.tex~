@@ -88,7 +88,7 @@
 \ohspsalmus{Psalmus 26}{./psalmi/ps026-4E}{./psalmi/ps026-21-31-nogp.tex}
 \ohstranslate{ps026}
 \ohsscorenostar{./ant/ant-credo_videre}
-%\separator{3}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsformatantiphona
@@ -102,14 +102,14 @@
 \vspace{1em}
 \gregorioscore{./versiculum/vers-tu_autem}
 %\vspace{2em}
-\separator{4}
+\separator{3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\vspace{1em}
 \ohslectio{le-sab-mat4}
 \vspace{1em}
-\pagebreak[4]
+%\pagebreak[4]
 \ohsresponsorium{4}{VII}{resp-recessit}
 \separator{3}
 
@@ -125,7 +125,7 @@
 %\vspace{1em}
 \ohslectio{le-sab-mat6}
 \vspace{1em}
-\pagebreak[4]
+%\pagebreak[4]
 \ohsresponsorium{6}{IV}{resp-ecce_quomodo}
 \separator{4}
 

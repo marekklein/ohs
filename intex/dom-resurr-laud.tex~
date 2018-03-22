@@ -48,7 +48,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./capitulum/ca-1cor-5-7.tex}
 
-\separator{3}
+%\separator{3}
+\vspace{2em}
 
 \ohsannotation{R. br.}{\small VI}
 \gregorioscore{./rbr/rbr-surrexit}

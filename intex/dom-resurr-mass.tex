@@ -7,7 +7,23 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ohsproprium{Introitus}{IV}{in-resurrexi}
-\separator{3}
+%\separator{3}
+
+\ifx\ohsprintall\undefined
+	\separator{3}
+\else
+	\separator{3}
+	\nadpisleft{Kyrie I}
+	\grechangedim{annotationraise}{-2 mm}{scalable}
+	\gregorioscore{./mass/ky-kyrie_i}
+	\vspace{1em}
+	%\separator{3}
+
+	\nadpisleft{Gloria I}
+	\gregorioscore{./mass/ky-gloria_i}
+	\vspace{1em}
+
+\fi
 
 \ohslectio{le-resurr-mass1}
 \separator{3}
@@ -25,10 +41,31 @@
 \separator{3}
 
 \ohslectio{le-resurr-mass3}
-\separator{3}
+%\separator{3}
+
+\ifx\ohsprintall\undefined
+	\separator{3}
+\else
+	\grechangedim{annotationraise}{-2 mm}{scalable}
+	\nadpisleft{Credo III}
+	\gregorioscore{./mass/ky-credo_iii}
+	\separator{3}
+\fi
 
 \ohsproprium{Offertorium}{IV}{of-terra_tremuit}
-\separator{3}
+
+\ifx\ohsprintall\undefined
+	\separator{3}
+\else
+	\separator{3}
+	\nadpisleft{Sanctus I}
+	\gregorioscore{./mass/ky-sanctus_i}
+	\vspace{1em}
+
+	%\pagebreak
+	\nadpisleft{Agnus I}
+	\gregorioscore{./mass/ky-agnus_i}
+\fi
 
 \ohsproprium{Communio}{VI}{co-pascha_nostrum}
 \ohsverses{Psalmus 117}{co-verses-pascha_nostrum}
