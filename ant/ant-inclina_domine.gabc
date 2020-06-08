@@ -1,6 +1,8 @@
 %annotation: 1. Ant. II D;
-
+nabc-lines:1;
+source:https://www.e-codices.unifr.ch/fr/csg/0390/99;
 %%
-(c3)In(ig~)clí(i)na,(j) Dó(i)mi(hi)ne,(i) <v>\greheightstar</v>(,) au(i)rem(g) tu(h)am(g) mi(e)hi,(e) (;) 
-et(h) ex(h)áu(fh)di(gf) ver(ef)ba(gf) me(e)a.(e) (::)
+(c3)In(ig~|cl~)clí(i|vi)na,(j|vi) Dó(i|vi)mi(hi|pe)ne,(i|vi-) <v>\greheightstar</v>(,) 
+au(i|vi)rem(g|ta) tu(h|vi)am(g|vi) mi(e|ta)hi,(e|vi) (;) 
+et(h|vi-) ex(h|peS)áu(fh|pes)di(gf|/cl-) ver(ef|peS)ba(gf|/cl-) me(e|ta)a.(e|ta) (::)
 
