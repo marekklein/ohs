@@ -1,40 +1,21 @@
 name:Salve Regina;
-annotation:Antiphon;
+office-part:Antiphona;
 mode:1;
-office-part:Antiphon;
-book: Antiphonale Romanum 1912, pg. 56;
-occasion:;
-transcriber:Andrew Hinkley, Jakub Pavlík;
-transcription-date:2010, 13;
-commentary:;
+book:Antiphonale Monasticum, 1934, p. 176;
+transcriber:Benjamin George;
 %%
-(c4) SAL(hhgh)ve,(d) *(,) 
-Re(hg)gí(fe/fgf)na,(ed) (;) 
-ma(c)ter(d) mi(dc)se(d)ri(ef)cór(g)di(dec)æ:(d) (::) 
+(c4)Sal(hhgh)ve,(d) <v>\greheightstar</v>() Re(hg)gí(fvEDew!fg)na,(ed) (,) ma(c)ter(d) mi(dc)se(d)ri(ef)cór(g>)di(dec)æ :(d) (::)
 
-Vi(hhgh)ta,(d) (,) dul(hg)cé(fe/fgf)do,(ed) (;) 
-et(c) spes(d) no(ef)stra,(g) (,) sal(dec)ve.(d) (::) 
+Vi(hhgh)ta,(d) (,) dul(hg~)cé(fvEDew!fg)do,(ed) (,) et(c) spes(d) no(ef)stra,(g) sal(dec)ve.(d) (::)
 
-Ad(df) te(h) cla(g)má(gfh)mus,(e) (;) 
-éx(g)su(f)les,(edg) (,) fí(c)li(d)i(edg) He(fe)væ.(d) (::) 
+Ad(df) te(h) cla(g)má(gfh)mus,(e) (,) éx(g)su(f)les,(edg) fí(c)li(d)i(dcg) He(fe)væ.(d) (::)
 
-Ad(df) te(h) su(j)spi(g)rá(gfg)mus,(h) (;) 
-ge(d)mén(fg~)tes(g) et(d) flen(fvED)tes(c) (;) 
-in(d) hac(dcf) la(gh)cri(g)má(fe)rum(g) val(fe~)le.(dcd) (::) 
+Ad(df) te(h) sus(g>)pi(d)rá(fvED)mus,(c) (,) ge(a)mén(cd~)tes(d) et(a) flen(cd~)tes(d) (,) in(d) hac(dcf) la(gh)cri(g)má(fe)rum(g) val(fe~)le.(dcd) (::)
 
-E(ffg)ia(f) er(gh~)go,(h) (,) Ad(j)vo(g)cá(hvGF)ta(d) no(g)stra,(h) (;) 
-il(k)los(k) tu(ji/jk)os(h) (,) 
-mi(k)se(j)ri(h)cór(gfh)des(g) ó(de)cu(f)los(evDC) (;) 
-ad(cd) nos(f) con(gf~)vér(dcd)te.(d) (::) 
+E(ffg)ia(f) er(g>)go,(h) (,) Ad(j)vo(g)cá(hvGF)ta(d) no(g>)stra,(h) (;) il(k)los(k) tu(ji/jk)os(h) mi(k)se(j)ri(h)cór(gfh)des(g) ó(d)cu(f)los(evDC) (,) ad(cd~) nos(f) con(gf~)vér(dcd)te.(d) (::)
 
-Et(d) Je(a)sum,(cd) (,) 
-be(d)ne(de)dí(edd)ctum(c) fru(g)ctum(f) ven(ed~)tris(g) tu(fe)i,(dcd) (;) 
-no(ixdh!iv)bis(h) (,) post(hvGF) hoc(g) ex(d)sí(f)li(fe)um(dc) (,) 
-os(efe)tén(d)de.(d) (::) 
+Et(d) Je(a)sum,(cd) (,) be(d)ne(de)dí(evDCd)ctum(c) fru(g>)ctum(fe~) ven(d)tris(g) tu(fe)i,(dcd) (;) no(iydh!iv)bis(h) post(hvGF) hoc(g) ex(d)sí(f)li(fe)um(dc) (,) o(ef)stén(d)de.(d) (::)
 
-O(hhg/h!iwj) cle(ivHG)mens:(h) (::) 
+O(hg) cle(hiw!jk)mens :(ivHG) (::)
 
-O(gh!iwjji) pi(hg)a:(gh) (::) 
-
-O(hdfvEDCd) (,) (de!fg) dul(gf~)cis(gh) *() 
-Vir(d)go(c) Ma(d)rí(dgff)a.(ed) (::) 
+O(g.h!iwj) pi(hg)a :(gh) (::) O(hhdfvEDCd//de!fg) dul(gf~)cis(gh) (,) Vir(d)go(dcg) Ma(fe)rí(d)a.(d) (::)
