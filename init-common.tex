@@ -135,6 +135,18 @@
 \ohstranslate{#3}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohspropriumcentered}[3]{%
+\vspace*{\stretch{4}}
+\ohsformatresponsorium
+\gresetinitiallines{1}
+\ohsannotation{#1}{#2}
+\gregorioscore{./mass/#3.tex}
+\ohstranslate{#3}
+\separator{1}
+\vspace*{\stretch{4}}
+\pagebreak
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\ohsverses}[3]{%
 \ohsformatverses
 \gresetinitiallines{0}
@@ -150,5 +162,8 @@
 \ohstranslate{#1}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \ohszlsc {
+\GreNewParLine %
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

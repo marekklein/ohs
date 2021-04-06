@@ -1,7 +1,7 @@
 % !TEX TS-program = lualatex
 % !TEX encoding = UTF-8
 
-\documentclass[14pt,latin,twoside,openright]{extreport} % use larger type; default would be 10pt
+\documentclass[12pt,latin,oneside,openright]{extreport} % use larger type; default would be 10pt
 \raggedbottom
 
 \usepackage{titlesec}
@@ -45,7 +45,8 @@
 \setlength{\parindent}{0pt} 
 \setlength{\parskip}{2mm}
 \usepackage{enumitem}
-\setlist{noitemsep}
+%\setlist{noitemsep}
+\setlist{itemsep=.8pt}
 \usepackage{color}
 \usepackage{fancyheadings}
 \usepackage{lastpage}
@@ -53,6 +54,10 @@
 \usepackage{pifont}
 \usepackage[hidelinks]{hyperref}
 \usepackage{bookmark}
+\usepackage{multicol}
+\columnseprule=0.4pt
+\setlength{\columnsep}{30pt}
+
 \hypersetup{
 	pdftitle={Divinum Officium},
 	%pdfsubject={Your PDF subject},
@@ -86,25 +91,25 @@
 \grechangedim{annotationraise}{2 mm}{scalable}%
 \gresetnabcfont{gregall}{10}
 \grechangedim{annotationseparation}{1 mm}{scalable}%
-\grechangestaffsize{17}%
-\grechangedim{spaceabovelines}{6mm}{scalable}%
+\grechangestaffsize{14}%
+\grechangedim{spaceabovelines}{5mm}{scalable}%
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\ohsformathymnus}{%
 \grechangedim{annotationraise}{2 mm}{scalable}%
 \grechangedim{annotationseparation}{1 mm}{scalable}%
-\grechangestaffsize{17}%
-\grechangedim{spaceabovelines}{7mm}{scalable}%
+\grechangestaffsize{14}%
+\grechangedim{spaceabovelines}{6mm}{scalable}%
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\ohsformatresponsorium}{%
 \grechangedim{annotationraise}{2 mm}{scalable}%
 \grechangedim{annotationseparation}{1 mm}{scalable}%
-\grechangestaffsize{17}%
+\grechangestaffsize{14}%
 \gresetnabcfont{gregall}{10}
-\grechangedim{spaceabovelines}{7mm}{scalable}%
+\grechangedim{spaceabovelines}{8mm}{scalable}%
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -113,7 +118,7 @@
 %\gresetnabcfont{gregall}{12}
 \grechangedim{annotationraise}{2 mm}{scalable}%
 \grechangedim{annotationseparation}{1 mm}{scalable}%
-\grechangestaffsize{14}%
+\grechangestaffsize{12}%
 \grechangedim{spaceabovelines}{4mm}{scalable}%
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -124,7 +129,8 @@
 \def \ohsz {
 \GreNewParLine %
 }
-%\let\ohsz\relax%
+\let\ohsz\relax%
+\grechangestyle{initial}{\color{red}\fontsize{38}{38}\selectfont}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
