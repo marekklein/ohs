@@ -93,15 +93,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\ohstranslate}[1]{%
 \IfFileExists{./translations/\translateto/#1.tex}{
-%\InputIfFileExists{./translations/\translateto/#1.tex}{
-\hrulefill
-\begin{footnotesize}
-\textit{\input{./translations/\translateto/#1.tex}}
-\hrulefill
+	\hrulefill
+	\begin{footnotesize}
+		\textit{\input{./translations/\translateto/#1.tex}}
+		\hrulefill
+		\par
+	\end{footnotesize}
+}
+{
+	{\color{red}
+	\begin{footnotesize}
+	\hrulefill
+	\url{#1.tex}
+	\hrulefill
+	\end{footnotesize}
+	}
+}
 \par
-\end{footnotesize}
-}{\par}
-}%
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\ohspsalmus}[3]{%
 \gresetinitiallines{0}%
@@ -166,4 +175,3 @@
 \GreNewParLine %
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
