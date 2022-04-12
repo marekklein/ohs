@@ -1,0 +1,167 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8
+
+\documentclass[12pt,latin,twoside,openright]{extreport} % use larger type; default would be 10pt
+\raggedbottom
+
+\usepackage{titlesec}
+ 
+\titleformat
+{\chapter} % command
+[display] % shape
+{\bfseries\large\scshape\centering} % format
+{\thechapter} % label
+{0.5ex} % sep
+{
+%    \rule{\textwidth}{1pt}
+	\vspace{-5ex}%
+	\feria \\%
+%
+%    \centering
+} % before-code
+[
+%\vspace{-0.5ex}%
+%\rule{\textwidth}{0.3pt}
+] % after-code
+
+% usual packages loading:
+\usepackage{luatextra}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
+\geometry{a5paper,vmargin={13mm,13mm},hmargin={10mm,10mm},footskip={7mm}} % or letterpaper (US) or a5paper or....
+\usepackage[autocompile]{gregoriotex}
+\usepackage[slovak,latin]{babel}
+\usepackage[nosingleletter]{impnattypo}
+\usepackage{graphicx}
+\usepackage{verbatim}
+
+% use the two following package for using normal TeX fonts
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+\usepackage{palatino}
+
+\setlength{\parindent}{0pt} 
+\setlength{\parskip}{2mm}
+\usepackage{enumitem}
+\usepackage{color}
+\usepackage{fancyheadings}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\usepackage{pifont}
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+\usepackage[savepos]{zref}
+\hypersetup{
+	pdftitle={Officium Nostrum},
+	%pdfsubject={Your PDF subject},
+	pdfauthor={Marek Klein - marek@gregoriana.sk},
+	bookmarksnumbered=true,     
+    bookmarksopen=true,         
+    bookmarksopenlevel=1,      
+    pdfpagemode=UseOutlines,  
+    %pdfkeywords={Your PDF keywords}
+}
+% here we begin the document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./init-common.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\separator}[1]{%
+\nopagebreak[4]
+\begin{center}\greseparator{3}{18}\end{center}
+\pagebreak[{#1}]
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohsformatantiphona}{%
+%\gresetnabcfont{gregall}{12}
+\grechangedim{annotationraise}{2 mm}{scalable}%
+\gresetnabcfont{gregall}{10}
+\grechangedim{annotationseparation}{1 mm}{scalable}%
+\grechangestaffsize{16}%
+\grechangedim{spaceabovelines}{6mm}{scalable}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohsformathymnus}{%
+\grechangedim{annotationraise}{2 mm}{scalable}%
+\grechangedim{annotationseparation}{1 mm}{scalable}%
+\grechangestaffsize{17}%
+\grechangedim{spaceabovelines}{7mm}{scalable}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohsformatresponsorium}{%
+\grechangedim{annotationraise}{2 mm}{scalable}%
+\grechangedim{annotationseparation}{1 mm}{scalable}%
+\grechangestaffsize{17}%
+\gresetnabcfont{gregall}{10}
+\grechangedim{spaceabovelines}{6mm}{scalable}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohsformatverses}{%
+\gresetinitiallines{0}
+%\gresetnabcfont{gregall}{12}
+\grechangedim{annotationraise}{2 mm}{scalable}%
+\grechangedim{annotationseparation}{1 mm}{scalable}%
+\grechangestaffsize{14}%
+\grechangedim{spaceabovelines}{4mm}{scalable}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter  
+\newcounter{score}
+\newcounter{tabstop}[score]
+\newcommand{\grealign}{%
+	\@bsphack%
+	\ifgre@boxing\else%
+		\kern\gre@dimen@begindifference%
+		\stepcounter{tabstop}%
+		\expandafter\zsavepos{stop-\thescore-\thetabstop}%
+		\kern-\gre@dimen@begindifference%
+	\fi%
+	\@esphack%
+}
+
+\newcommand{\setstops}{%
+  \gdef\nstabbing@stops{%
+    \hspace*{-\oddsidemargin}\hspace{-1in}%
+    \hspace*{\zposx{stop-\thescore-1} sp}\=%
+  }%
+  \count@=\@ne
+  \loop\ifnum\count@<\value{tabstop}%
+    \begingroup\edef\x{\endgroup
+      \noexpand\g@addto@macro\noexpand\nstabbing@stops{%
+        \noexpand\hspace{-\noexpand\zposx{stop-\thescore-\the\count@} sp}%
+        \noexpand\hspace{\noexpand\zposx{stop-\thescore-\the\numexpr\count@+1} sp}\noexpand\=%
+      }%
+    }\x
+    \advance\count@\@ne
+  \repeat
+  \nstabbing@stops\kill
+}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newenvironment{nstabbing}
+  {\setlength{\topsep}{0pt}%
+   \setlength{\partopsep}{0pt}%
+   \tabbing%
+   \setstops}
+  {\endtabbing\stepcounter{score}}
+
+\cfoot{\textit{\small{\thepage / \pageref{LastPage} - \feriashort - \ohschaptername }}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def \ohsz {
+\GreNewParLine %
+}
+%\let\ohsz\relax%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
