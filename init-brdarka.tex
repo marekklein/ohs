@@ -1,0 +1,244 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8
+
+% This is a simple template for a LuaLaTeX document using gregorio scores.
+%PATCH START - specify slovak in documentclass
+\documentclass[14pt,slovak]{extarticle} % use larger type; default would be 10pt
+%PATCH END
+%\usepackage[16pt]{extsizes}
+% usual packages loading:
+\usepackage{luatextra}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
+\geometry{a4paper,vmargin={20mm,20mm},hmargin={20mm,20mm},footskip={10mm}} % or letterpaper (US) or a5paper or....
+\usepackage[autocompile]{gregoriotex}
+%\usepackage{gregoriotex} % for gregorio score inclusion
+%\usepackage{fullpage} % to reduce the margins
+\grechangestaffsize{19}
+\gresetnabcfont{gregall}{10}
+% choose the language of the document here
+\usepackage[slovak,latin]{babel}
+\usepackage[nosingleletter]{impnattypo}
+%\usepackage[slovak]{babel}
+\usepackage{graphicx}
+\usepackage{comment}
+% use the two following package for using normal TeX fonts
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+% If you use usual TeX fonts, here is a starting point:
+%\usepackage{times}
+\usepackage{libertine}
+%\usepackage{tgtermes} % (a free font)
+% to change the font to something better, you can install the kpfonts package (if not already installed). To do so
+% go open the "TeX Live Manager" in the Menu Start->All Programs->TeX Live 2010
+%PATCH START
+%PATCH END
+
+\setlength{\parindent}{0pt} 
+
+\def\gretextformat#1{%
+{\fontsize{12}{12}\selectfont #1\relax}%
+}
+%\font \gregoriosymbolfont=gresym at 20pt
+
+%\def\greabovelinestextstyle#1{%
+%{\fontsize{12}{12}\selectfont #1\relax}%
+%}
+%\usepackage{parskip}
+\setlength{\parskip}{2mm}
+\usepackage{enumitem}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{pifont}
+\usepackage[pdfauthor={Marek Klein},
+            pdftitle={Workshop Brdárka 2024},
+            pdfsubject={Gregorian Chant},
+            pdfkeywords={Gregorian Chant},
+            pdfproducer={Latex with hyperref, or other system},
+            pdfcreator={LuaLatex, Gregorio}]{hyperref}
+
+% here we begin the document
+\begin{document}
+\pagestyle{fancy}
+\fancyhf{}% to clear existing header/footer if you don't want it
+\renewcommand\headrulewidth{0pt}
+\cfoot{\textit{\small{Workshop Brdárka 2024 - strana \thepage / \pageref{LastPage}}}}
+%\definecolor{gregoriocolor}{RGB}{229,53,44}
+%\definecolor{gregoriocolor}{RGB}{180,57,179}
+% The title:
+%\begin{center}\begin{Large}\textsc{Veľký Piatok}\end{Large}\end{center}
+% Here we set the space around the initial.
+% Please report to http://home.gna.org/gregorio/gregoriotex/details for more details and options
+%\setspaceafterinitial{2.2mm plus 0em minus 0em}
+%\setspacebeforeinitial{2.2mm plus 0em minus 0em}
+
+% Here we set the initial font. Change 43 if you want a bigger initial.
+%\def\grechangestyle{initial}#1{%
+%{\fontsize{43}{43}\selectfont #1}%
+%}
+%psalmodia
+\vspace{6 mm}
+\newcommand{\prizvuk}[1]{%
+{\textbf{#1}}%
+}
+\newcommand{\priprava}[1]{%
+{\textit{#1}}%
+}
+\newcommand{\flexa}[1]{%
+{\underline{#1}}%
+}
+\newcommand{\nadpisa}[1]{%
+{\begin{center}\textbf{\textsc{#1}}\end{center}}%
+}
+\newcommand{\nadpisb}[1]{%
+{\begin{center}\textsc{#1}\end{center}}%
+}
+\newcommand{\nadpisc}[1]{%
+{\textit{\small{\textbf{#1}}}}%
+}
+\newcommand{\nadpisd}[1]{%
+{\begin{center}\textit{\small{#1}}\end{center}}%
+}
+\newcommand{\nadpissub}[2]{%
+{\begin{center}\textbf{\textsc{#1}}
+\linebreak
+\textit{\small{#2}}\end{center}}%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohsscorenostar}[1]{%
+\gresetinitiallines{0}%
+{\let\greheightstar\relax%
+\gregorioscore{#1}%
+}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohsformatverses}[1]{%
+\gresetinitiallines{0}
+%\gresetnabcfont{gregall}{12}
+\grechangedim{annotationraise}{2 mm}{scalable}%
+\grechangedim{annotationseparation}{1 mm}{scalable}%
+\grechangestaffsize{15}%
+\grechangedim{spaceabovelines}{#1}{scalable}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohsformatchant}[1]{%
+\gresetinitiallines{1}
+\grechangedim{annotationraise}{-1 mm}{scalable}%
+\grechangedim{annotationseparation}{1 mm}{scalable}%
+\grechangestaffsize{17}%
+\gresetnabcfont{gregall}{10}
+\grechangedim{spaceabovelines}{#1}{scalable}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\versseparator{\ding{88}~}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\separator}[1]{%
+\nopagebreak[4]
+\begin{center}\greseparator{3}{25}\end{center}
+\pagebreak[{#1}]
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\convtranslate}[1]{%
+\hrulefill \begin{footnotesize} \textit{%
+{#1}%
+} \hrulefill \par \end{footnotesize} {\par}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\textaccent}[1]{%
+{\textbf{{#1}}}%
+%{\color{red} \textbf{\large{#1}}}%
+}
+\newcommand{\textprep}[1]{%
+%{\color{red} \textit{\large{#1}}}%
+{\textit{{#1}}}%
+}
+\newcommand{\textflex}[1]{%
+{\underline{#1}}%
+}
+\newcommand{\nadpisleft}[1]{%
+{\color{red} \textit{\small{#1}}}%
+\nopagebreak
+\vspace{0.2em}%
+\nopagebreak
+}
+
+\newcommand{\poznamka}[1]{%
+{\rightline{\textit{\small{#1}}}}%
+\nopagebreak
+\vspace{.2em}%
+\nopagebreak
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohsannotation}[2]{%
+\greannotation{\color{red} \small {#1}}%
+\greannotation{\small {#2}}%
+\gresetinitiallines{1}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohspsalmus}[3]{%
+\gresetinitiallines{0}%
+\nadpisleft{#1}
+\gregorioscore{#2}
+\vspace{-0.8em}
+\input{#3}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\translateto{SK}
+\def\versseparator{\ding{88}~}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohstranslate}[1]{%
+\IfFileExists{./translations/\translateto/#1.tex}{
+	\hrulefill
+	\begin{footnotesize}
+		\textit{\input{./translations/\translateto/#1.tex}}
+		\hrulefill
+		\par
+	\end{footnotesize}
+}
+{
+	{\color{red}
+	\begin{footnotesize}
+	\hrulefill
+	\url{#1.tex}
+	\hrulefill
+	\end{footnotesize}
+	}
+}
+\par
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ohsformatantiphona}{%
+\grechangedim{annotationraise}{0 mm}{scalable}%
+\grechangedim{annotationseparation}{2 mm}{scalable}%
+\grechangestaffsize{20}%
+\grechangedim{spaceabovelines}{7mm}{scalable}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hyphenation{nech umu-če-ný}
+
+% We set red lines here, comment it if you want black ones.
+%\redlines
+
+% We set VIII above the initial.
+%\greannotation{\small \textsc{\textbf{VIII}}}{\small \textsc{\textbf{VIII}}}
+
+% We type a text in the top right corner of the score:
+%\commentary{{\small \emph{Cf. Is. 30, 19 . 30 ; Ps. 79}}}
+
+% and finally we include the score. The file must be in the same directory as this one.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
